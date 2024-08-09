@@ -17,6 +17,22 @@ body {
 
 header {
     background-color:   lightgray;
+    padding: 0 5px;
+}
+
+.logo {
+    width: 32px;
+}
+
+header > h1 {
+    font-family: "Ubuntu";
+    display: inline;
+    padding-left: 1rem;
+
+}
+
+header > a {
+    text-decoration: none;
 }
 
 main {
@@ -27,3 +43,4 @@ main {
 footer {
     background-color: lightgray;
 }
+
