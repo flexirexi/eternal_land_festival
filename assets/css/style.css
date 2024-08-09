@@ -22,7 +22,7 @@ body {
 header {
     background-color:   lightgray;
     padding: 0 5px;
-    background-color: #ffffff;
+    background-color: #000000;
     padding: 0 1rem; 
     position: fixed;
     z-index: 99;
@@ -38,7 +38,7 @@ header {
 
 nav {
     position: absolute;
-    background-color: white;
+    background-color: black;
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -52,20 +52,23 @@ nav {
 }
 
 header img {
+    display: block;
     margin: auto;
-    
+    border-radius: 50%;
 }
 
 header > h1 {
     font-family: "Ubuntu";
     display: inline;
     padding-left: 1rem;
+    margin: auto 0;
+    color: #cbd5e3;
 
 }
 
 header > a {
     text-decoration: none;
-    text-align: center;
+    margin: auto 0;
 
 }
 
@@ -75,6 +78,10 @@ header > a {
 
 #nav-dropdown {
     display: none;
+}
+
+.nav-dropdown-label {
+    margin: auto 0;
 }
 
 main {
