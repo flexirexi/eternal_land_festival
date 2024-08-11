@@ -8,6 +8,16 @@
     box-sizing: border-box;
 }
 
+.title_ubuntu {
+    font-family: "Ubuntu", sans-serif;
+    margin: 15px 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #323232;
+    font-size: 3.5rem;
+    text-align: center;
+
+}
+
 h1, h2, h3 {
     font-size: 22px;
 }
@@ -110,21 +120,38 @@ nav li {
 
 main {
     background-color: darkgray;
-    flex: 1 0 auto;
-    margin-top: 40px;
-    height: 900px;
+    flex:               1 0 auto;
+    margin-top:         45px;
 }
+
+#section_title {
+    height:                 94vh;
+    display:                flex;
+    justify-content:        center;
+    background-image:       url("../img/festival02.jpg");
+    background-position:    center;
+    background-size:        cover;
+
+}
+
+#section_title_header {
+    display: flex;
+    justify-content: center;
+    
+    margin-top: 50px;
+}
+
 
 footer {
     background-color: lightgray;
-    padding: 4%;
+    padding:            4%;
 }
 
 #social-media {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-evenly;
-    text-align: center;
+    list-style-type:    none;
+    display:            flex;
+    justify-content:    space-evenly;
+    text-align:         center;
 
 }
 
