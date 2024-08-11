@@ -64,7 +64,6 @@ header img {
 
 header > h1 {
     font-family: "Ubuntu";
-    padding-left: 1rem;
     margin: auto 0;
     color: #cbd5e3;
 
@@ -142,5 +141,11 @@ footer {
 
     .nav-dropdown-label {
         display: none;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 1px solid #cbd5e3;
     }
 }
