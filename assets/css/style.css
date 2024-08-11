@@ -98,6 +98,16 @@ nav li {
     margin-bottom: 5px;
 }
 
+#nav_register_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav_register_btn {
+    padding: 5px;
+}
+
 main {
     background-color: darkgray;
     flex: 1 0 auto;
