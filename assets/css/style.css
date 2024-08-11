@@ -102,11 +102,32 @@ main {
     background-color: darkgray;
     flex: 1 0 auto;
     margin-top: 40px;
+    height: 900px;
 }
 
 footer {
     background-color: lightgray;
+    padding: 4%;
 }
+
+#social-media {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
+}
+
+#social-media li {
+    font-size: 22px;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
 
 /* Media query: tablets from 768px */
 @media screen and (min-width: 768px) {
@@ -147,5 +168,9 @@ footer {
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #cbd5e3;
+    }
+    
+    #social-media a:hover {
+        border-bottom: 1px solid #323232;
     }
 }
