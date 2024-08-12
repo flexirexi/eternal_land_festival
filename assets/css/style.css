@@ -518,11 +518,7 @@ footer {
     }
 
     #section_gallery2_pic2 {
-        position: absolute;
-        right: 12%;
-        top: 14vh;
-        z-index: 2;
-        width: 12%;
+        display:none;
         
     }
 
@@ -618,7 +614,7 @@ footer {
     #section_gallery2_pic2 {
         position: absolute;
         right: 12%;
-        top: 19vh;
+        top: 28vh;
         z-index: 2;
         width: 12%;
         
@@ -634,5 +630,17 @@ footer {
     
     #p3 {
         text-align: right;
+    }
+
+}
+
+@media screen and (min-width: 1100px) {
+    #section_gallery2_pic2 {
+        position: absolute;
+        right: 12%;
+        top: 29vh;
+        z-index: 2;
+        width: 12%;
+        
     }
 }
