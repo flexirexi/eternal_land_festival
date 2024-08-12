@@ -212,8 +212,8 @@ footer {
 
 
 
-/* Media query: tablets from 768px */
-@media screen and (min-width: 768px) {
+/* Media query: tablets from 768px - changed to 770, since ipad mini has too less space for a not collapsed header..*/
+@media screen and (min-width: 770px) {
     nav {
         display: flex;
         position: relative;
