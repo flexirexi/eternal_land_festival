@@ -236,7 +236,7 @@ main {
 }
 
 #section_lineup {
-    background: rgba(36, 36, 36, 0.5) url(../img/felix01.jpg);
+    background: rgba(36, 36, 36, 0.55) url(../img/felix01.jpg);
     background-blend-mode: darken;
     background-size: cover;
     padding-bottom: 80px;
@@ -254,7 +254,7 @@ main {
 
 #section_lineup_starringdj h4 {
     font-family: "Ysabeau", sans-serif;
-    color: rgb(241, 255, 159);
+    color: rgb(255, 188, 45);
     margin: 5px auto;
 
 }
@@ -347,6 +347,49 @@ main {
     background-color: #202020;
     color:rgb(255, 188, 45)
 }
+
+#section_stay_tuned {
+    background-color: #000000;
+}
+
+#section_stay_tuned_card {
+    background-color: rgb(255, 188, 45);
+    border: none;
+    border-radius: 8px;
+    padding:  5px 8%;
+    margin: 2px 5%;
+    text-align: left;
+    
+}
+
+#section_stay_tuned_card h1 {
+    color: black;
+    text-shadow: none;
+}
+
+.form_div {
+    margin: 20px auto;
+}
+
+#section_stay_tuned input, #section_stay_tuned label {
+    display: block;
+    margin-bottom: 3px;
+    font-family: "Ysabeau", sans-serif;
+    width: 100%;
+}
+
+#section_stay_tuned label {
+    font-size: 0.8em;
+}
+
+#section_stay_tuned input {
+    font-size: 1.2em;
+}
+
+#subscribe {
+    padding:  5px 15px;
+}
+
 
 
 
