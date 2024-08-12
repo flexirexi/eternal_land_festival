@@ -18,7 +18,15 @@
 
 }
 
+.text_ysabeau {
+    font-family: "Ysabeau", sans-serif;
+    color: #cbd5e3;
+    font-size: 18px;
+}
+
 h1, h2, h3 {
+    margin: 0;
+    padding: 0;
     font-size: 22px;
 }
 
@@ -120,27 +128,45 @@ nav li {
 
 main {
     background-color: darkgray;
-    flex:               1 0 auto;
-    margin-top:         45px;
+    
 }
 
 #section_title {
-    height:                 94vh;
-    display:                flex;
-    justify-content:        center;
+    margin-top: 45px;
+    height: 95vh;
+    padding-top: 55px;
     background-image:       url("../img/festival02.jpg");
     background-position:    center;
     background-size:        cover;
-
-}
-
-#section_title_header {
-    display: flex;
-    justify-content: center;
     
-    margin-top: 50px;
 }
 
+#section_title_facts {
+    display: flex;
+    position: absolute;
+    bottom: 7rem;
+    left: 0;
+    right: 0;
+}
+
+#section_facts_when {
+    margin-right: 8px;
+    margin-left: 10px;
+    text-align: right;
+    position: absolute;
+    left: 0;
+    right: 52%;
+}
+
+#section_facts_where {
+    margin-left: 8px;
+    text-align: left;
+    margin-left: 10px;
+    position: absolute;
+    left: 52%;
+    right: 0;
+
+}
 
 footer {
     background-color: lightgray;
