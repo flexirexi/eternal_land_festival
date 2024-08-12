@@ -311,7 +311,17 @@ main {
     max-width: 380px;
 }
 
+#section_ticket_airports {
+    display: flex;  
+    gap: 5px;
+    flex-wrap: wrap;  
+    justify-content: space-evenly;
+}
 
+#section_ticket_airports > li {
+    text-align: center;
+    flex-basis: 50px;
+}
 
 
 
@@ -438,7 +448,12 @@ footer {
         text-align: right;
     }
 
+    #section_ticket_airports > li {
+        text-align: center;
+        flex-basis: auto;
+    }
 }
+
 
 
 
