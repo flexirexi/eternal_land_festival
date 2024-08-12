@@ -209,8 +209,20 @@ main {
     height: 100%;
 }
 
+#section_lineup_starringdj {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 700px;
+}
 
+#section_lineup_starringdj h4 {
 
+    font-family: "Ysabeau", sans-serif;
+    color: #a1c5ff;
+    margin: 5px auto;
+
+}
 
 
 
