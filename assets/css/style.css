@@ -40,7 +40,7 @@
 }
 
 .section_layout {
-    padding: 35px 7%;
+    padding: 45px 7%;
     width: 100%;
     background-color: black;
     text-align: center;
@@ -212,20 +212,32 @@ main {
     height: 100%;
 }
 
+#section_lineup {
+    background: rgba(36, 36, 36, 0.3) url(../img/felix01.jpg);
+    background-blend-mode: darken;
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
 #section_lineup_starringdj {
     list-style-type: none;
     display: flex;
     justify-content: space-evenly;
     max-width: 700px;
     margin: 10px auto;
+    text-shadow: 2px 2px 2px black;
+    
 }
 
 #section_lineup_starringdj h4 {
-
     font-family: "Ysabeau", sans-serif;
-    color: #a1c5ff;
+    color: rgb(241, 255, 159);
     margin: 5px auto;
 
+}
+
+#section_lineup_text {
+    text-shadow: 3px 3px 4px #202020;
 }
 
 #section_gallery2 {
@@ -234,10 +246,19 @@ main {
 
 #section_gallery2_pic1 {
     position: absolute;
-    left: 13%;
-    top: -35px;
+    left: 22%;
+    top: -38px;
     z-index: 2;
-    width: 35%;
+    width: 24%;
+    
+}
+
+#section_gallery2_pic2 {
+    position: absolute;
+    right: 12%;
+    top: 8vh;
+    z-index: 2;
+    width: 12%;
     
 }
 
@@ -247,25 +268,18 @@ main {
     box-shadow: 2px 2px 5px gray;
 }
 
-#section_gallery2_pic2 {
-    position: absolute;
-    right: 13%;
-    top: 10vh;
-    z-index: 2;
-    width: 15%;
-    
-}
-
-
-
-
 #section_gallery2_container {
     display: grid;
-    grid-template-columns: 2.2fr 1fr 2.2fr 1fr ;
-    position: absolute;
+    grid-template-columns: 2.1fr 1fr 2.1fr 1.2fr ;
     z-index: 1;
 
 }
+
+#section_ticket {
+    padding-top: 20px;
+}
+
+
 
 
 
@@ -328,7 +342,35 @@ footer {
     .nav-dropdown-label {
         display: none;
     }
+
+    #section_lineup {
+        background: rgba(36, 36, 36, 0.3) url(../img/felix01.jpg);
+        background-blend-mode: darken;
+        background-size: cover;
+        padding-bottom: 100px;
+    }
+
+    #section_gallery2_pic1 {
+        position: absolute;
+        left: 22%;
+        top: -78px;
+        z-index: 2;
+        width: 22%;
+        
+    }
+
+    #section_gallery2_pic2 {
+        position: absolute;
+        right: 12%;
+        top: 14vh;
+        z-index: 2;
+        width: 12%;
+        
+    }
+
 }
+
+
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
@@ -337,5 +379,23 @@ footer {
     
     #social-media a:hover {
         border-bottom: 1px solid #323232;
+    }
+
+    #section_gallery2_pic1 {
+        position: absolute;
+        left: 22%;
+        top: -88px;
+        z-index: 2;
+        width: 22%;
+        
+    }
+
+    #section_gallery2_pic2 {
+        position: absolute;
+        right: 12%;
+        top: 19vh;
+        z-index: 2;
+        width: 12%;
+        
     }
 }
