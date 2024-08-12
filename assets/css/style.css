@@ -163,19 +163,22 @@ main {
 #section_facts_where {
     margin-left:    8px;
     text-align:     left;
+}
 
-
-
+#section_video {
+    background-color: black;
 }
 
 #section_gallery {
-   display: flex;
-   justify-content:center;
-   height: 150px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 2fr;
+
+
 }
 
 #section_gallery img {
-    
+    width: 100%;
+    height: 100%;
 }
 
 
