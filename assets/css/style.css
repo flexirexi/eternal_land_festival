@@ -163,10 +163,23 @@ main {
 #section_facts_where {
     margin-left:    8px;
     text-align:     left;
-    margin-left:    10px;
+
 
 
 }
+
+#section_gallery {
+   display: flex;
+   justify-content:center;
+   height: 150px;
+}
+
+#section_gallery img {
+    
+}
+
+
+
 
 footer {
     background-color: lightgray;
