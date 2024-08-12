@@ -33,9 +33,9 @@
                 <li><a href="#section_ticket">ticket info</a></li>
                 <li><a href="#section_vip">vip</a></li>
                 <li><a href="#section_stay_tuned">stay tuned</a></li>
-                <li><a href="#section_faq">faq</a></li>
+                <li><a id="menu_faq" href="#section_faq">faq</a></li>
             </ul>
-            <a id="nav_register_link" href="preregister.html"><button id="nav_register_btn">pre-register</button></a>
+            <a id="nav_register_link" href="preregister.html">pre-register</a>
         </nav>
     </header>
     
@@ -178,40 +178,41 @@
             </p>
             <div>
                 <a href="preregister.html" id="section_vip_register_link">
-                    <button id="section_vip_register_btn"><b>pre-register now</b></button>
+                    <b>pre-register.</b>
                 </a>
             </div>
         </section>
 
         <section id="section_stay_tuned" class="section_layout">
-            <div id="section_stay_tuned_card">
+            <div id="section_stay_tuned_card" >
                 <h1 id="section_stay_tuned_header" class="sub_title_ubuntu">stay tuned.</h1>
 
                 <form id="section_stay_tuned_form" action="">
                     <div class="form_div">
-                        <label for="firstname">First Name:</label>
-                        <input type="text" name="firstname" id="firstname">
+                        <label class="form_label" for="firstname">First Name:</label>
+                        <input class="form_input" type="text" name="firstname" id="firstname" required>
                     </div>
                     <div class="form_div">
-                        <label for="lastname">Last Name</label>
-                        <input type="text" name="lastname" id="lastname">
+                        <label class="form_label" for="lastname">Last Name</label>
+                        <input class="form_input" type="text" name="lastname" id="lastname" required>
                     </div>
                     <div class="form_div">
-                        <label for="email">E-mail</label>
-                        <input type="text" name="email" id="email">
+                        <label class="form_label" for="email">E-mail</label>
+                        <input class="form_input" type="text" name="email" id="email" required>
                     </div>
-                    <div class="form_div">
-                        <label for="dropdown">Choose your country:</label>
-                        <select class="form-control" id="dropdown" name="dropdown_value">
+                    <div  class="form_div">
+                        <label class="form_label" id="section_subsribe_ctry_label" for="section_subsribe_ctry_value">Choose your country:</label>
+                        <select class="form_input" id="section_subscribe_country"  name="section_subsribe_ctry_value" required>
+                            <option value=""></option>
                             <option value="option_1">Option 1</option>
                             <option value="option_2">Option 2</option>
                             <option value="option_3">Option 3</option>
                             <option value="option_4">Option 4</option>
                             <option value="option_5">Option 5</option>
-                          </select>
+                        </select>
                     </div>
-                    <div id="subscribe_div">
-                        <button id="subscribe">subscribe.</button>
+                    <div id="subscribe_div" class="form_div">
+                        <button id="subscribe" class="button_hover">subscribe.</button>
                     </div>
                 </form>
             </div>

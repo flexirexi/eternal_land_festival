@@ -66,6 +66,7 @@
     width: 100%;
     background-color: black;
     text-align: center;
+    
 }
 
 section > p {
@@ -82,9 +83,7 @@ h1, h2, h3 {
     font-size: 22px;
 }
 
-button {
-    margin: 8px 0;
-}
+
 
 body {
     font-family: "Ysabeau";
@@ -96,18 +95,14 @@ body {
 
 header {
     background-color:   lightgray;
-    padding: 0 3px;
     background-color: #000000;
-    padding: 0 1rem; 
     position: fixed;
     z-index: 99;
     box-shadow: 0 2px 4px #323232;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-    vertical-align: middle;
-    height: 45px;
+    height: 50px;
     
 }
 
@@ -115,20 +110,18 @@ nav {
     position: absolute;
     background-color: black;
     width: 100%;
-    left: 0;
-    padding: 0 1rem;
     box-shadow: 0 2px 3px #323232;
     display: none;
     top: 100%;
 }
 
 .logo {
-    width: 32px;
+    width: 30px;
+    margin-left: 9px;
 }
 
 header img {
     display: block;
-    margin: auto;
     border-radius: 50%;
 }
 
@@ -136,6 +129,7 @@ header > h1 {
     font-family: "Ubuntu";
     margin: auto 0;
     color: #cbd5e3;
+    font-size: 1.2em;
 
 }
 
@@ -147,6 +141,8 @@ header > a {
 
 #nav-dropdown:checked~nav {
     display: block;
+    padding: 10px 0;
+    text-align: center;
 }
 
 #nav-dropdown {
@@ -154,33 +150,45 @@ header > a {
 }
 
 .nav-dropdown-label {
-    margin: auto 0;
+    margin: auto 15px;
+
 }
 
 nav a {
     font-family: "Ubuntu";
     text-decoration: none;
     color: #cbd5e3;
+    margin-left: -9px;
+   
 }
 
 nav li {
     list-style-type: none;
-    margin-bottom: 5px;
+    margin:  5px 15px;
+    font-size: 1.2em;
 }
 
 #nav_register_link {
+    height: 30px;
+    margin: auto auto;
+    width: 100px;
+    color: black;
+    background-color: rgb(255, 188, 45);
+    font-family: "Ubuntu", sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 5px;
+    
 }
 
-#nav_register_btn {
-    padding: 5px;
+#menu_faq {
+    margin-right: 10px;
 }
+
 
 main {
-    background-color: darkgray;
-    
+    background-color: darkgray;    
 }
 
 #section_title {
@@ -340,12 +348,15 @@ main {
     text-shadow: 2px 2px 3px #202020;
 }
 
-#section_vip_register_btn {
+#section_vip_register_link {
     padding: 12px 20px;
-    border: 2px solid rgb(255, 188, 45);
+    border: 1px solid rgb(255, 188, 45);
     border-radius: 5px;
-    background-color: #202020;
-    color:rgb(255, 188, 45)
+    background-color: rgb(255, 188, 45);
+    color: black;
+    box-shadow: 2px 2px 4px #202020;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
 }
 
 #section_stay_tuned {
@@ -356,10 +367,10 @@ main {
     background-color: rgb(255, 188, 45);
     border: none;
     border-radius: 8px;
-    padding:  5px 8%;
-    margin: 2px 5%;
+    padding:  5px 22px;
+    margin: auto;
     text-align: left;
-    
+    max-width: 430px;
 }
 
 #section_stay_tuned_card h1 {
@@ -367,28 +378,40 @@ main {
     text-shadow: none;
 }
 
-.form_div {
-    margin: 20px auto;
+#section_stay_tuned_form {
+    text-align: center;
+    align-items: center;
 }
 
-#section_stay_tuned input, #section_stay_tuned label {
+.form_div {
+    margin: 20px auto; 
+    width: 80%;   
+      
+}
+
+.form_label {
     display: block;
-    margin-bottom: 3px;
+    font-family: "Ysabeau", sans-serif;
+    font-size: 0.7em;
+    margin-bottom: 8px;
+}
+
+.form_input {
+    display: block;
     font-family: "Ysabeau", sans-serif;
     width: 100%;
 }
 
-#section_stay_tuned label {
-    font-size: 0.8em;
-}
-
-#section_stay_tuned input {
-    font-size: 1.2em;
-}
-
 #subscribe {
     padding:  5px 15px;
+    background-color: black;
+    color: rgb(255, 188, 45);
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
 }
+
+
 
 
 
@@ -417,7 +440,6 @@ footer {
 }
 
 
-
 /* Media query: tablets from 768px - changed to 770, since ipad mini has too less space for a not collapsed header..*/
 @media screen and (min-width: 780px) {
     nav {
@@ -431,13 +453,12 @@ footer {
         height: 100%;
     }
 
-    button {
-       vertical-align: middle;
-       margin-left: 15px;
-       padding-left: 8px;
-       padding-right: 8px;
-
-       
+    header > h1 {
+        font-family: "Ubuntu";
+        margin: auto 0;
+        color: #cbd5e3;
+        font-size: 1.2em;
+    
     }
 
     #menu {
@@ -451,6 +472,20 @@ footer {
 
     .nav-dropdown-label {
         display: none;
+    }
+
+    #nav_register_link {
+        height: 30px;
+        margin: auto auto;
+        width: 100px;
+        color: black;
+        background-color: rgb(255, 188, 45);
+        font-family: "Ubuntu", sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        margin-right: 15px;
     }
 
     #section_lineup {
@@ -520,6 +555,22 @@ footer {
         text-align: center;
         flex-basis: auto;
     }
+
+    #section_vip_register_link:hover {
+        background-color: black;
+        color: rgb(255, 188, 45);
+    }
+
+    .form_div {
+        margin: 25px auto; 
+        width: 70%;   
+          
+    }
+
+    #subscribe:hover {
+        color : black;
+        background-color: rgb(255, 188, 45);
+    }
 }
 
 
@@ -532,6 +583,14 @@ footer {
     
     #social-media a:hover {
         border-bottom: 1px solid #323232;
+    }
+
+    header > h1 {
+        font-family: "Ubuntu";
+        margin: auto 0;
+        color: #cbd5e3;
+        font-size: 1.7em;
+    
     }
 
     #section_gallery2_pic1 {
