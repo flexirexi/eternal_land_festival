@@ -368,7 +368,7 @@ main {
     border: none;
     border-radius: 8px;
     padding:  5px 22px;
-    margin: auto;
+    margin: 0 auto;
     text-align: left;
     max-width: 430px;
 }
@@ -411,7 +411,20 @@ main {
     border: 1px solid black;
 }
 
+#section_faq {
+    background: linear-gradient(#000000, #000000, #000000, #202020)
+}
 
+#section_faq_link {
+    padding: 12px 45px;
+    border: 1px solid rgb(255, 188, 45);
+    border-radius: 5px;
+    background-color: rgb(255, 188, 45);
+    color: black;
+    box-shadow: 2px 2px 4px #202020;
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+}
 
 
 
