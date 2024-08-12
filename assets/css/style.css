@@ -32,6 +32,7 @@
     font-family: "Ysabeau", sans-serif;
     color: #cbd5e3;
     font-size: 16px;
+    text-align: center;
 }
 
 .section_padding {
@@ -39,14 +40,16 @@
 }
 
 .section_layout {
-    padding: 35px 20px;
+    padding: 35px 7%;
     width: 100%;
     background-color: black;
     text-align: center;
 }
 
 section > p {
-    max-width: 400px;
+    max-width: 700px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -205,6 +208,8 @@ main {
     width: 100%;
     height: 100%;
 }
+
+
 
 
 
