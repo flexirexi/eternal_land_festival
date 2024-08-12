@@ -18,6 +18,16 @@
     
 }
 
+.sub_title_ubuntu {
+    font-family: "Ubuntu", sans-serif;
+    margin: 20px 20px;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px #323232;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+
 .text_ysabeau {
     font-family: "Ysabeau", sans-serif;
     color: #cbd5e3;
@@ -26,6 +36,17 @@
 
 .section_padding {
     padding: 35px 20px;
+}
+
+.section_layout {
+    padding: 35px 20px;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+
+section > p {
+    max-width: 400px;
 }
 
 
