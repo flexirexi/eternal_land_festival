@@ -474,7 +474,7 @@ details > summary {
     list-style-type: none;
     cursor: pointer;
     margin: 10px auto;
-    margin-top: 50px;
+    margin-top: 20px;
     width: fit-content;
     max-width: 800px;
 }
@@ -485,6 +485,7 @@ details > p {
     margin: 10px auto;
     width: 70%;
     max-width: 800px;
+    margin-bottom: 50px;
 }
 
 #faq_section_tickets_return {
@@ -493,8 +494,47 @@ details > p {
     text-align: left;
     font-family: "Ysabeau", sans-serif;
     color: #bdc6d2;
+    margin-top: -30px;
+    margin-bottom: 50px;
 }
 
+
+
+/* PAGE 3: preregister.html specific ELEMENTS & STYLES ----------------- */
+
+#register_section_container {
+    background-color: black;
+
+}
+
+#register_card {
+    background-color: rgb(255, 188, 45);
+    border: none;
+    border-radius: 8px;
+    padding: 5px 10px;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 630px;
+}
+
+
+
+
+
+
+
+
+#register_airports {
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+#register_airports>li {
+    text-align: center;
+    flex-basis: 130px;
+}
 
 
 
@@ -640,6 +680,50 @@ details > p {
     .form_div {
         margin: 25px auto;
         width: 70%;
+    }
+
+
+    /* PAGE 3: preregister.html ---------------------------------- */
+    #register_p1 {
+        text-align: left;
+    }
+
+    #register_p2 {
+        text-align: center;
+    }
+
+    #register_p3 {
+        text-align: right;
+    }
+
+    #register_ul_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #register_ul_container>li {
+        margin: auto auto;
+        padding: 20px 25px;
+        vertical-align: top;
+        height: 100%;
+        max-width: 350px;
+    }
+
+    #register_h4_1 {
+        text-align: left;
+    }
+
+    #register_h4_2 {
+        text-align: center;
+    }
+
+    #register_h4_3 {
+        text-align: right;
+    }
+
+    #register_airports>li {
+        text-align: center;
+        flex-basis: auto;
     }
 
 }

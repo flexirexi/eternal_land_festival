@@ -18,29 +18,130 @@
 <body>
     <!-- Header -->
     <header>
-
-        <a href="index.html" >
-            <img src="assets/favicon/eternal_land.png" alt="logo" class="logo" >
+        <a id="header_logo" href="index.html" >
+            <img src="assets/favicon/eternal_land.png" alt="logo"  >
+            <h1 id="faq_header">elf - pre-register</h1>
         </a>
-
-        <h1>eternal land festival</h1>
         <input type="checkbox" name="nav-dropdown" id="nav-dropdown">
         <label for="nav-dropdown" class="nav-dropdown-label"><i class="fa-solid fa-bars" style="color: #cbd5e3;"></i></label>
-        <nav>
+        <nav id="nav_main">
             <ul id="menu">
-                <li><a href="index.html">welcome</a></li>
-                <li><a href="">line-up</a></li>
-                <li><a href="">ticket info</a></li>
-                <li><a href="">vip</a></li>
-                <li><a href="">stay tuned</a></li>
-                <li><a href="faq.html">faq</a></li>
+                <li><a href="index.html#section_welcome">welcome</a></li>
+                <li><a href="index.html#section_lineup">line-up</a></li>
+                <li><a href="index.html#section_ticket">ticket info</a></li>
+                <li><a href="index.html#section_vip">vip</a></li>
+                <li><a href="index.html#section_stay_tuned">stay tuned</a></li>
+                <li><a id="menu_faq" href="#section_faq">faq</a></li>
             </ul>
-            
         </nav>
     </header>
     
     <!-- Main Content -->
-    <main>Main Content</main>
+    <main id="register_main" >
+        <section id="register_section_container" class="section_layout">
+        
+            <div id="register_card" >
+                <h1 id="register_header" class="sub_title_ubuntu">stay tuned.</h1>
+                <section id="section_ticket" class="section_layout">
+                    <h1 id="section_ticket" class="sub_title_ubuntu">ticket information.</h1>
+        
+                    <p id="section_ticket_text" class="text_ysabeau">
+                        All tickets include the flight from one of 5 airports as well as the overnight stay. First, choose your ticket category, 
+                        then, choose the airport from which you want to start your journey:
+                        <br><br><br>
+                    </p>
+        
+                    <ul id="register_ul_container">
+                        <li>
+                            <h4 id="register_h4_1" class="sub_sub_title_ubuntu">Rent-A-Tent Ticket</h4>
+                            <p id="register_p1" class="text_small_ysabeau section_text_layout">
+                                You will be given a tent package for two as soon as you enter the festival area. This package includes 
+                                sleeping bags, pillows and two camping chairs. You will have access to lobkable toilets (floating water). 
+                                Each eternal fan is limited to buy up to 8 tickets.
+                                <br><br>
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="register_h4_2" class="sub_sub_title_ubuntu">Booth Ticket</h4>
+                            <p id="register_p2" class="text_small_ysabeau section_text_layout">
+                                For more comfort, you can rent a booth for two. It includes two beds, blankets, pillows, electricity plaugs and comfortable 
+                                camping chairs. In addition, you will have a locker to secure your personal belongings. You will have access to lockable 
+                                toilets (floating water). Each eternal fan is limited to buy up to 4 tickets at once.
+                                <br><br>
+                            </p>
+                        </li>
+                        <li>
+                            <h4 id="register_h4_3" class="sub_sub_title_ubuntu">Hotel Ticket</h4>
+                            <p id="register_p3" class="text_small_ysabeau section_text_layout">
+                                For exclusive comfort, you will be allocated to a hotel room around the island. To each hotel, there is a shuttle every full hour. 
+                                Upon request, there will be a full breakfast (also vegan/vegetarian). Please note that you can't choose the hotel. Each eternal fan 
+                                is limited to buy up to 4 tickets.
+                                <br><br><br>
+                            </p>
+                        </li>
+                    </ul>
+        
+                    <p id="register_airport_h" class="text_ysabeau" >
+                        <u>Airports to choose</u>:
+                    </p>
+                    <ul id="register_airports">
+                        <li><h4 class="sub_sub_title_ubuntu">Paris CDG</h4></li>
+                        <li><h4 class="sub_sub_title_ubuntu">London Heathrow</h4></li>
+                        <li><h4 class="sub_sub_title_ubuntu">Frankfurt FRA</h4></li>
+                        <li><h4 class="sub_sub_title_ubuntu">Now York JFK</h4></li>
+                        <li><h4 class="sub_sub_title_ubuntu">Mexico City MEX</h4></li>
+                    </ul>
+                    
+                </section>
+                <form id="register_form" action="">
+                    <div class="form_div">
+                        <label class="form_label" for="firstname">First Name:</label>
+                        <input class="form_input" type="text" name="firstname" id="firstname" required>
+                    </div>
+                    <div class="form_div">
+                        <label class="form_label" for="lastname">Last Name</label>
+                        <input class="form_input" type="text" name="lastname" id="lastname" required>
+                    </div>
+                    <div class="form_div">
+                        <label class="form_label" for="email">E-mail</label>
+                        <input class="form_input" type="text" name="email" id="email" required>
+                    </div>
+                    <div  class="form_div">
+                        <label class="form_label" id="section_subsribe_ctry_label" for="section_subsribe_ctry_value">Choose your country:</label>
+                        <select class="form_input" id="section_subscribe_country"  name="section_subsribe_ctry_value" required>
+                            <option value=""></option>
+                            <option value="Afghanistan">Afghanistan</option>
+                            <option value="Åland Islands">Åland Islands</option>
+                            <option value="Belgium">Belgium</option>
+                            <option value="Belize">Belize</option>
+                            <option value="Chile">Chile</option>
+                            <option value="China">China</option>
+                            <option value="Djibouti">Djibouti</option>
+                            <option value="Dominica">Dominica</option>
+                            <option value="Jordan">Jordan</option>
+                            <option value="Kazakhstan">Kazakhstan</option>
+                            <option value="Kenya">Kenya</option>
+                            <option value="Kiribati">Kiribati</option>
+                            <option value="Luxembourg">Luxembourg</option>
+                            <option value="Sweden">Sweden</option>
+                            <option value="Switzerland">Switzerland</option>
+                            <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                            <option value="Taiwan">Taiwan</option>
+                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                            <option value="Western Sahara">Western Sahara</option>
+                            <option value="Yemen">Yemen</option>
+                            <option value="Zambia">Zambia</option>
+                            <option value="Zimbabwe">Zimbabwe</option>
+                        </select>
+                    </div>
+                    <div id="subscribe_div" class="form_div">
+                        <button id="subscribe" class="button_hover">subscribe.</button>
+                    </div>
+                </form>
+            </div>
+
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
