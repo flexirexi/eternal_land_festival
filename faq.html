@@ -15,28 +15,182 @@
     <!-- stylesheet -->
      <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
-
-        <a href="index.html" >
-            <img src="assets/favicon/eternal_land.png" alt="logo" class="logo" >
+        <a id="header_logo" href="index.html" >
+            <img src="assets/favicon/eternal_land.png" alt="logo"  >
+            <h1 id="faq_header">elf - faq</h1>
         </a>
 
-        <h1>eternal land festival</h1>
         <input type="checkbox" name="nav-dropdown" id="nav-dropdown">
         <label for="nav-dropdown" class="nav-dropdown-label"><i class="fa-solid fa-bars" style="color: #cbd5e3;"></i></label>
-        <nav>
+        <nav id="nav_main">
             <ul id="menu">
-
+                <li><a href="index.html#section_welcome">welcome</a></li>
+                <li><a href="index.html#section_lineup">line-up</a></li>
+                <li><a href="index.html#section_ticket">ticket info</a></li>
+                <li><a href="index.html#section_vip">vip</a></li>
+                <li><a href="index.html#section_stay_tuned">stay tuned</a></li>
+                <li><a id="menu_faq" href="#section_faq">faq</a></li>
             </ul>
-            <a id="nav_register_link" href="preregister.html"><button id="nav_register_btn">pre-register</button></a>
+            <a id="nav_register_link" href="preregister.html">pre-register</a>
         </nav>
     </header>
     
     <!-- Main Content -->
-    <main>
+    <main id="faq_main_container">
+        <section id="faq_section_title" class="section_layout">
+            <h1 id="faq_section_title_header" class="title_ubuntu">faq.</h1>
+        </section>
 
+        <section id="faq_section_tickets" class="section_layout">
+            <h1 id="faq_section_tickets_header" class="sub_title_ubuntu yellow"><u>tickets.</u></h1>
+            <details>
+                <summary><b>When does the ticket sale start?</b></summary>
+                <p>
+                    The regular ticket sale starts on Jan 20th, 2025. Upon pre-registration, you will receive a personalized link 
+                    to to vip ticket sales web page <b>one day before the regular ticket sale</b>. Then, you have the exclusive opportunity
+                    to get your tickets without stress.
+                </p>
+            </details>
+            <details>
+                <summary><b>What are the chances to get a ticket?</b></summary>
+                <p>
+                    It highly depends from which country you are from. We sell up to 225 000 tickets. To keep it as fair as possible, 
+                    each country will be given the same amount of available ticket. When clicking on the purchase button, you will 
+                    draw a random waiting number. Based on that number, you have to wait in the queue until it's your turn. 
+                    <br><br><b>Do not reload the queue page otherwise you will be put to the end of the queue.</b>  
+                </p>
+            </details>
+            <details>
+                <summary><b>>How can I pay?</b></summary>
+                <p>
+                    We accept VISA/MASTERCARD Credit as well as AMEX. We do not accept direct bank transfer. If you are a citizen 
+                    of the United States, please note that we also accept PayPal.
+                </p>
+            </details>
+            <details>
+                <summary><b>What is the minimum age to buy a ticket?</b></summary>
+                <p>Well, good news for you! You will be granted access to the ticket sale webpage when you are 18 years or older.</p>
+            </details>
+            <details>
+                <summary><b>Can I pay the ticket prices in installments?</b></summary>
+                <p>
+                    There is no such possibility to split the purchase price.
+                </p>
+            </details>
+            <details>
+                <summary><b>How can I return a ticket?</b></summary>
+                <p>
+                    We accept ticket returns until 8 weeks before the festival starts, provided that you can prove one of the following cases: 
+                    <br><br>
+                    <ul id="faq_section_tickets_return">
+                        <li>sickness with evidence (such as a sick bill)</li>
+                        <li>hospital stay</li>
+                        <li>death</li>
+                        <li>some other made up reasons to let you stick to the ticket.</li>
+                    </ul>
+                </p>
+            </details>
+            <details>
+                <summary><b>Can I resell the tickets?</b></summary>
+                <p>
+                    The tickets are personalized. The can't be sold to others.
+                </p>
+            </details>
+        </section>
+
+        <section id="faq_section_journey" class="section_layout">
+            <h1 id="faq_section_journey_header" class="sub_title_ubuntu yellow"><u>journey.</u></h1>
+            <details>
+                <summary>There are no flight tickets left for the preferred airport. What now?</summary>
+                <p>Unfortunately our flight tickets are fix. You only can choose another airport.</p>
+            </details>
+            <details>
+                <summary>I lost my flight ticket. Can I still fly?</summary>
+                <p>Short answer: YES. You will receive the flight ticket via email and digitally for your mobile wallet.</p>
+            </details>
+            <details>
+                <summary>The worst happened, Imissed the flight! What to do?</summary>
+                <p>Unfortunately, there is not much to. The only option for you would be to buy another ticket for the same day.</p>
+            </details>
+            <details>
+                <summary>Is there a shuttle to the festivel?</summary>
+                <p>
+                    Yes. We have chartered 5 buses who will constantly drive (roughly every 15 min);
+                </p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+        </section>
+
+        <section id="faq_section_festival" class="section_layout">
+            <h1 id="faq_section_festival_header" class="sub_title_ubuntu yellow"><u>tickets.</u></h1>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+            <details>
+                <summary></summary>
+                <p></p>
+            </details>
+        </section>
     </main>
 
     <!-- Footer -->

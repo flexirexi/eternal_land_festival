@@ -1,12 +1,63 @@
-/* Google font */
+/* Google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Ysabeau+SC:wght@1..1000&display=swap');
 
-/* Generic style */
+
+/* 01 Generic STYLES that apply for all html pages*/
 * {
-    margin:     0;
-    padding:    0;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
+h1,
+h2,
+h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+body {
+    font-family: "Ysabeau";
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #323232;
+}
+
+header {
+    background-color: lightgray;
+    background-color: #000000;
+    position: fixed;
+    z-index: 99;
+    box-shadow: 0 2px 4px #323232;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+}
+
+nav {
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    box-shadow: 0 2px 3px #323232;
+    display: none;
+    top: 100%;
+}
+
+main {
+    background-color: darkgray;
+    margin-top: 45px;
+}
+
+footer {
+    background-color: lightgray;
+    padding: 4%;
+}
+
+
+/* 02 Utility classes and deviations from general STYLES --------------- */
 
 .title_ubuntu {
     font-family: "Ubuntu", sans-serif;
@@ -15,7 +66,7 @@
     text-shadow: 2px 2px 5px #323232;
     font-size: 3.3rem;
     text-align: center;
-    
+
 }
 
 .sub_title_ubuntu {
@@ -25,7 +76,7 @@
     text-shadow: 2px 2px 5px #323232;
     font-size: 1.5rem;
     text-align: center;
-    
+
 }
 
 .sub_sub_title_ubuntu {
@@ -35,7 +86,7 @@
     text-shadow: 2px 2px 5px #323232;
     font-size: 0.8rem;
     text-align: center;
-    
+
 }
 
 .text_ysabeau {
@@ -49,6 +100,10 @@
     font-family: "Ysabeau", sans-serif;
     color: #cbd5e3;
     font-size: 13px;
+}
+
+.yellow {
+    color: rgb(255, 188, 45);
 }
 
 .section_padding {
@@ -66,7 +121,7 @@
     width: 100%;
     background-color: black;
     text-align: center;
-    
+
 }
 
 section > p {
@@ -75,48 +130,30 @@ section > p {
     margin: 0 auto;
 }
 
+.form_div {
+    margin: 20px auto;
+    width: 80%;
 
-
-h1, h2, h3 {
-    margin: 0;
-    padding: 0;
-    font-size: 22px;
 }
 
-
-
-body {
-    font-family: "Ysabeau";
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    color: #323232;
+.form_label {
+    display: block;
+    font-family: "Ysabeau", sans-serif;
+    font-size: 0.7em;
+    margin-bottom: 8px;
 }
 
-header {
-    background-color:   lightgray;
-    background-color: #000000;
-    position: fixed;
-    z-index: 99;
-    box-shadow: 0 2px 4px #323232;
+.form_input {
+    display: block;
+    font-family: "Ysabeau", sans-serif;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    
 }
 
-nav {
-    position: absolute;
-    background-color: black;
-    width: 100%;
-    box-shadow: 0 2px 3px #323232;
-    display: none;
-    top: 100%;
-}
+
+/* 03 Specific ELEMENTS that are used sidewide ------------------------------- */
 
 #header_logo {
-    display:  flex;
+    display: flex;
     width: 100%;
 }
 
@@ -124,21 +161,22 @@ header img {
     display: block;
     border-radius: 50%;
     width: 30px;
-    margin-left: 9px;
+    width: 30px;
+    margin: auto 6px 0;
 }
 
-header  h1 {
+header h1 {
     font-family: "Ubuntu";
     margin: auto auto;
     color: #cbd5e3;
     font-size: 1.2em;
-
+    
 }
 
 header > a {
     text-decoration: none;
     margin: auto 0;
-
+    
 }
 
 #nav-dropdown:checked~nav {
@@ -153,20 +191,20 @@ header > a {
 
 .nav-dropdown-label {
     margin: auto 20px;
-
+    
 }
 
 nav a {
     font-family: "Ubuntu";
     text-decoration: none;
     color: #cbd5e3;
-    margin-left: -9px;
-   
+    margin-left: -12px;
+    
 }
 
 nav li {
     list-style-type: none;
-    margin:  5px 15px;
+    margin: 5px 15px;
     font-size: 1.2em;
 }
 
@@ -181,51 +219,64 @@ nav li {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    
 }
 
 #menu_faq {
     margin-right: 10px;
 }
 
-
-main {
-    background-color: darkgray;    
+#social-media {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
+#social-media li {
+    font-size: 25px;
+}
+
+#social-media a {
+    text-decoration: none;
+    color: inherit;
+    padding: 10px 12px;
+    border-radius: 50px;
+}
+
+
+/* PAGE 1: index.html specific ELEMENTS & STYLES ---------------- */
+
 #section_title {
-    margin-top:             45px;
-    height:                 95vh;
-    padding-top:            55px;
-    background-image:       url("../img/festival02.jpg");
-    background-position:    center;
-    background-size:        cover;
     
+    height: 95vh;
+    padding-top: 55px;
+    background-image: url("../img/festival02.jpg");
+    background-position: center;
+    background-size: cover;
 }
 
 #section_title_facts {
-    display:            flex;
-    justify-content:    space-evenly;
+    display: flex;
+    justify-content: space-evenly;
     background-color: black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-
 }
 
 #section_facts_when {
-    margin-right:   8px;
-    margin-left:    10px;
-    text-align:     right;
-
+    margin-right: 8px;
+    margin-left: 10px;
+    text-align: right;
 }
 
 #section_facts_where {
-    margin-left:    8px;
-    text-align:     left;
+    margin-left: 8px;
+    text-align: left;
 }
 
-#where, #when {
+#where,
+#when {
     font-size: 0.75rem;
 }
 
@@ -236,8 +287,6 @@ main {
 #section_gallery {
     display: grid;
     grid-template-columns: 2.3fr 1fr 1fr 2.3fr;
-
-
 }
 
 #section_gallery img {
@@ -259,14 +308,12 @@ main {
     max-width: 700px;
     margin: 10px auto;
     text-shadow: 2px 2px 2px black;
-    
 }
 
 #section_lineup_starringdj h4 {
     font-family: "Ysabeau", sans-serif;
     color: rgb(255, 188, 45);
     margin: 5px auto;
-
 }
 
 #section_lineup_text {
@@ -283,7 +330,6 @@ main {
     top: -38px;
     z-index: 2;
     width: 24%;
-    
 }
 
 #section_gallery2_pic2 {
@@ -292,7 +338,6 @@ main {
     top: 8vh;
     z-index: 2;
     width: 12%;
-    
 }
 
 #section_gallery2 img {
@@ -303,9 +348,8 @@ main {
 
 #section_gallery2_container {
     display: grid;
-    grid-template-columns: 2.1fr 1fr 2.1fr 1.2fr ;
+    grid-template-columns: 2.1fr 1fr 2.1fr 1.2fr;
     z-index: 1;
-
 }
 
 #section_ticket {
@@ -316,19 +360,21 @@ main {
     list-style-type: none;
 }
 
-#p1, #p2, #p3 {
+#p1,
+#p2,
+#p3 {
     text-align: center;
     max-width: 380px;
 }
 
 #section_ticket_airports {
-    display: flex;  
+    display: flex;
     gap: 5px;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-#section_ticket_airports > li {
+#section_ticket_airports>li {
     text-align: center;
     flex-basis: 130px;
 }
@@ -340,7 +386,7 @@ main {
 }
 
 #section_vip {
-    
+
     background: rgba(0, 0, 0, 0.6) url(../img/festival10.jpg);
     background-blend-mode: darken;
     background-size: cover;
@@ -369,7 +415,7 @@ main {
     background-color: rgb(255, 188, 45);
     border: none;
     border-radius: 8px;
-    padding:  5px 22px;
+    padding: 5px 22px;
     margin: 0 auto;
     text-align: left;
     max-width: 430px;
@@ -385,27 +431,8 @@ main {
     align-items: center;
 }
 
-.form_div {
-    margin: 20px auto; 
-    width: 80%;   
-      
-}
-
-.form_label {
-    display: block;
-    font-family: "Ysabeau", sans-serif;
-    font-size: 0.7em;
-    margin-bottom: 8px;
-}
-
-.form_input {
-    display: block;
-    font-family: "Ysabeau", sans-serif;
-    width: 100%;
-}
-
 #subscribe {
-    padding:  5px 15px;
+    padding: 5px 15px;
     background-color: black;
     color: rgb(255, 188, 45);
     font-family: "Ubuntu", sans-serif;
@@ -429,36 +456,57 @@ main {
 }
 
 
+/* PAGE 2: faq.html specific ELEMENTS & STYLES ----------------- */
 
-
-
-footer {
-    background-color: lightgray;
-    padding:            4%;
-}
-
-#social-media {
-    list-style-type:    none;
-    display:            flex;
-    justify-content:    space-evenly;
-    text-align:         center;
+#faq_header {
+    color: rgb(255, 188, 45);
 
 }
 
-#social-media li {
-    font-size: 22px;
+#faq_section_tickets_header {
+    margin: 60px 0;
 }
 
-#social-media a {
-    text-decoration: none;
-    color: inherit;
+details > summary {
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.2rem;
+    color: white;;
+    list-style-type: none;
+    cursor: pointer;
+    margin: 10px auto;
+    margin-top: 50px;
+    width: fit-content;
+    max-width: 800px;
+}
+
+details > p {
+    font-family: "Ysabeau", sans-serif;
+    color: #cbd5e3;
+    margin: 10px auto;
+    width: 70%;
+    max-width: 800px;
+}
+
+#faq_section_tickets_return {
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    font-family: "Ysabeau", sans-serif;
+    color: #bdc6d2;
 }
 
 
-/* Media query: tablets from 768px - changed to 770, since ipad mini has too less space for a not collapsed header..*/
+
+
+
+
+
+/* -------------------- MEDIA QUERIES -------------------- */
+/* 1 TABLET FROM 768px - changed to 780: ipad mini has too less space for an expanded nav.. */
+
 @media screen and (min-width: 780px) {
     #header_logo {
-        display:  flex;
+        display: flex;
         width: auto;
     }
 
@@ -473,21 +521,25 @@ footer {
         height: 100%;
     }
 
-    header  h1 {
+    #menu a:hover {
+        border-bottom: 1px solid #cbd5e3;
+        color: rgb(255, 188, 45);
+    }
+
+    header h1 {
         font-family: "Ubuntu";
         margin: auto 9px;
         color: #cbd5e3;
         font-size: 1.2em;
-    
     }
 
     #menu {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
-        margin: auto 0;
+        margin: auto 2px;
     }
 
     .nav-dropdown-label {
@@ -508,6 +560,12 @@ footer {
         margin-right: 10px;
     }
 
+    #nav_register_link:hover {
+        border: 1px solid rgb(255, 188, 45);
+        background-color: black;
+        color: rgb(255, 188, 45);
+    }
+
     #section_lineup {
         background: rgba(36, 36, 36, 0.3) url(../img/felix01.jpg);
         background-blend-mode: darken;
@@ -521,22 +579,20 @@ footer {
         top: -78px;
         z-index: 2;
         width: 22%;
-        
     }
 
     #section_gallery2_pic2 {
-        display:none;
-        
+        display: none;
     }
 
     #p1 {
         text-align: left;
     }
-    
+
     #p2 {
         text-align: center;
     }
-    
+
     #p3 {
         text-align: right;
     }
@@ -544,10 +600,9 @@ footer {
     #section_ticket_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        
     }
 
-    #section_ticket_container > li {
+    #section_ticket_container>li {
         margin: auto auto;
         padding: 20px 25px;
         vertical-align: top;
@@ -567,9 +622,14 @@ footer {
         text-align: right;
     }
 
-    #section_ticket_airports > li {
+    #section_ticket_airports>li {
         text-align: center;
         flex-basis: auto;
+    }
+
+    #section_ticket_sale {
+        font-family: "Ysabeau", sans-serif;
+        margin-top: 40px;
     }
 
     #section_vip_register_link:hover {
@@ -578,35 +638,24 @@ footer {
     }
 
     .form_div {
-        margin: 25px auto; 
-        width: 70%;   
-          
+        margin: 25px auto;
+        width: 70%;
     }
 
-    #subscribe:hover {
-        color : black;
-        background-color: rgb(255, 188, 45);
-    }
 }
 
 
-
-
+/* 2 TABLETS & SMALL LAPTOPS FROM 992px: Hovers are used from here ------------- */
 @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #cbd5e3;
-    }
-    
-    #social-media a:hover {
-        border-bottom: 1px solid #323232;
-    }
-
-    header  h1 {
+    header h1 {
         font-family: "Ubuntu";
         margin: auto 15px;
         color: #cbd5e3;
         font-size: 1.7em;
+    }
     
+    header img:hover {
+        box-shadow: 0px 0px 10px #2f2f2f;
     }
 
     #section_gallery2_pic1 {
@@ -615,18 +664,16 @@ footer {
         top: -88px;
         z-index: 2;
         width: 22%;
-        
     }
-
+    
     #section_gallery2_pic2 {
         position: absolute;
         right: 12%;
         top: 28vh;
         z-index: 2;
         width: 12%;
-        
     }
-
+    
     #p1 {
         text-align: left;
     }
@@ -638,16 +685,54 @@ footer {
     #p3 {
         text-align: right;
     }
+    
+    #subscribe:hover {
+        color: black;
+        background-color: rgb(255, 188, 45);
+    }
+    
+    #section_faq_link:hover {
+        color: rgb(255, 188, 45);
+        background-color: black;
+        border: 1px solid rgb(255, 188, 45);
+    }
+    
+    #social-media a:hover {
+        box-shadow: 0px 0px 10px #202020;
+        background-color: #32323216;
+    }
 
+    /* faq.html specific media query stuff... */
+    details > summary:hover {
+        border-bottom: 1px solid rgb(255, 188, 45);
+    }
 }
 
+/* 3 LAPTOPS & PCS FROM 1100px: Taking care of too strong shifts of ELEMENTS ----- */
 @media screen and (min-width: 1100px) {
+    header {
+        height: 65px;
+    }
+
+    nav li {
+        margin: 5px 15px;
+        font-size: 1.5em;
+    }
+
+    #menu>li {
+        margin: auto 7px;
+    }
+
+    main {
+        margin-top: 65px;
+    }
+
     #section_gallery2_pic2 {
         position: absolute;
         right: 12%;
         top: 29vh;
         z-index: 2;
         width: 12%;
-        
+
     }
 }
