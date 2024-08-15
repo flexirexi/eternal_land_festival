@@ -803,7 +803,7 @@ details > p {
     .register_form_input {
         display: block;
         font-family: "Ysabeau", sans-serif;
-        width: 250px;
+        width: 90%;
     }
 
 
@@ -842,8 +842,13 @@ details > p {
 
     .register_form_double_text {
         display: flex;
-        justify-content: space-evenly;
     }
+
+    .register_form_div_text {
+        margin: 7px 0px ;
+        width: 100%;
+    }
+
 
 }
 
