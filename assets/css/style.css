@@ -615,7 +615,7 @@ details > p {
     padding: 7px;
     text-align: center;
     width: 80px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
 
 #register_airports {
@@ -658,6 +658,12 @@ details > p {
 
 .register_form_div_text {
     margin: 7px auto;
+}
+
+.register_fieldset_legend_text {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
 }
 
 
