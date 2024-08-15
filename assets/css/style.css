@@ -121,6 +121,12 @@ footer {
     margin: 0 auto;
 }
 
+.section_text_layout_airport {
+    max-width: 700px;
+    text-align: left;
+    
+}
+
 .section_layout {
     padding: 45px 7%;
     width: 100%;
@@ -170,6 +176,22 @@ section > p {
     
 }
 
+.register_form_airport {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.register_form_label_airport {
+    display: block;
+    font-family: "Ysabeau", sans-serif;
+    font-size: 0.7em;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
 .register_form_input {
     display: block;
     font-family: "Ysabeau", sans-serif;
@@ -201,11 +223,12 @@ input[type=radio]:hover + label {
 
 .airportspacing {
     margin: 0 auto;
-    padding: 3px;
+    padding: 2px;
 }
 
-.fieldset_margin {
+.fieldset_margin_padding {
     margin-top: 30px;
+    padding-top: 5px;
 }
 
 /* 03 Specific ELEMENTS that are used sidewide ------------------------------- */
@@ -783,7 +806,7 @@ details > p {
 
 
 
-    #register_ul_container {
+    #register_ticket_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         padding: 5px 7px;
