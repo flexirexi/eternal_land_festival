@@ -169,7 +169,8 @@ section > p {
     display: block;
     font-family: "Ysabeau", sans-serif;
     font-size: 0.7em;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
+    margin-top: 5px;
     border-radius: 5px;
     padding: 5px;
     
@@ -227,6 +228,7 @@ input[type=radio]:hover + label {
 
 .fieldset_margin_padding {
     margin-top: 30px;
+    margin-bottom: 15px;
     padding-top: 5px;
 }
 
@@ -803,7 +805,7 @@ details > p {
     .register_form_input {
         display: block;
         font-family: "Ysabeau", sans-serif;
-        width: 90%;
+        width: 95%;
     }
 
 
