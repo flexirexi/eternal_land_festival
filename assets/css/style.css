@@ -106,6 +106,11 @@ footer {
     color: rgb(255, 188, 45);
 }
 
+.black_text {
+    font-family: "Ysabeau", sans-serif;
+    color: black;
+}
+
 .section_padding {
     padding: 35px 20px;
 }
@@ -149,6 +154,59 @@ section > p {
     width: 100%;
 }
 
+.register_form_div {
+    margin: 17px auto;
+    width: 80%;
+
+}
+
+.register_form_label {
+    display: block;
+    font-family: "Ysabeau", sans-serif;
+    font-size: 0.7em;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.register_form_input {
+    display: block;
+    font-family: "Ysabeau", sans-serif;
+    width: 100%;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  opacity: 1;
+}
+
+.radiohidden {
+    visibility: hidden;
+    display: none;
+}
+
+input[type=radio]:checked + label {
+    background-color:rgba(0, 0, 0, 0.30);
+
+}
+
+input[type=radio]:hover + label {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.fullheight {
+    height: 100%;
+}
+
+.airportspacing {
+    margin: 0 auto;
+    padding: 3px;
+}
+
+.fieldset_margin {
+    margin-top: 30px;
+}
 
 /* 03 Specific ELEMENTS that are used sidewide ------------------------------- */
 
@@ -498,6 +556,9 @@ details > p {
     margin-bottom: 50px;
 }
 
+#register_airport_h {
+    margin-top: 20px;
+}
 
 
 /* PAGE 3: preregister.html specific ELEMENTS & STYLES ----------------- */
@@ -514,15 +575,24 @@ details > p {
     padding: 5px 10px;
     margin: 0 auto;
     text-align: left;
-    max-width: 630px;
+    max-width: 800px;
 }
 
 
+#register_form_number {
+    display: block;
+    text-align: center;
+    width: 180px;
+}
 
-
-
-
-
+#register_form_number_input {
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 7px;
+    text-align: center;
+    width: 80px;
+    margin: 0 auto;
+}
 
 #register_airports {
     display: flex;
@@ -536,9 +606,23 @@ details > p {
     flex-basis: 130px;
 }
 
+#register_button_container {
+    text-align: center;
+}
 
+#register_bt {
+    padding: 5px 15px;
+    background-color: black;
+    color: rgb(255, 188, 45);
+    font-family: "Ubuntu", sans-serif;
+    border-radius: 5px;
+    border: 1px solid black;
+}
 
-
+#register_bt:hover {
+    color: black;
+    background-color: rgb(255, 188, 45);
+}
 
 
 /* -------------------- MEDIA QUERIES -------------------- */
@@ -699,15 +783,10 @@ details > p {
     #register_ul_container {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        padding: 5px 7px;
     }
 
-    #register_ul_container>li {
-        margin: auto auto;
-        padding: 20px 25px;
-        vertical-align: top;
-        height: 100%;
-        max-width: 350px;
-    }
+
 
     #register_h4_1 {
         text-align: left;
@@ -725,6 +804,12 @@ details > p {
         text-align: center;
         flex-basis: auto;
     }
+
+    .labelmax {
+        max-width: 230px;
+    }
+
+
 
 }
 

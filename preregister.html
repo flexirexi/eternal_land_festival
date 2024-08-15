@@ -15,6 +15,7 @@
     <!-- stylesheet -->
      <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!-- Header -->
     <header>
@@ -41,102 +42,153 @@
         <section id="register_section_container" class="section_layout">
         
             <div id="register_card" >
-                <h1 id="register_header" class="sub_title_ubuntu">stay tuned.</h1>
-                <section id="section_ticket" class="section_layout">
-                    <h1 id="section_ticket" class="sub_title_ubuntu">ticket information.</h1>
-        
-                    <p id="section_ticket_text" class="text_ysabeau">
-                        All tickets include the flight from one of 5 airports as well as the overnight stay. First, choose your ticket category, 
-                        then, choose the airport from which you want to start your journey:
-                        <br><br><br>
-                    </p>
-        
-                    <ul id="register_ul_container">
-                        <li>
-                            <h4 id="register_h4_1" class="sub_sub_title_ubuntu">Rent-A-Tent Ticket</h4>
-                            <p id="register_p1" class="text_small_ysabeau section_text_layout">
-                                You will be given a tent package for two as soon as you enter the festival area. This package includes 
-                                sleeping bags, pillows and two camping chairs. You will have access to lobkable toilets (floating water). 
-                                Each eternal fan is limited to buy up to 8 tickets.
-                                <br><br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4 id="register_h4_2" class="sub_sub_title_ubuntu">Booth Ticket</h4>
-                            <p id="register_p2" class="text_small_ysabeau section_text_layout">
-                                For more comfort, you can rent a booth for two. It includes two beds, blankets, pillows, electricity plaugs and comfortable 
-                                camping chairs. In addition, you will have a locker to secure your personal belongings. You will have access to lockable 
-                                toilets (floating water). Each eternal fan is limited to buy up to 4 tickets at once.
-                                <br><br>
-                            </p>
-                        </li>
-                        <li>
-                            <h4 id="register_h4_3" class="sub_sub_title_ubuntu">Hotel Ticket</h4>
-                            <p id="register_p3" class="text_small_ysabeau section_text_layout">
-                                For exclusive comfort, you will be allocated to a hotel room around the island. To each hotel, there is a shuttle every full hour. 
-                                Upon request, there will be a full breakfast (also vegan/vegetarian). Please note that you can't choose the hotel. Each eternal fan 
-                                is limited to buy up to 4 tickets.
-                                <br><br><br>
-                            </p>
-                        </li>
-                    </ul>
-        
-                    <p id="register_airport_h" class="text_ysabeau" >
-                        <u>Airports to choose</u>:
-                    </p>
-                    <ul id="register_airports">
-                        <li><h4 class="sub_sub_title_ubuntu">Paris CDG</h4></li>
-                        <li><h4 class="sub_sub_title_ubuntu">London Heathrow</h4></li>
-                        <li><h4 class="sub_sub_title_ubuntu">Frankfurt FRA</h4></li>
-                        <li><h4 class="sub_sub_title_ubuntu">Now York JFK</h4></li>
-                        <li><h4 class="sub_sub_title_ubuntu">Mexico City MEX</h4></li>
-                    </ul>
-                    
-                </section>
+                <h1 id="register_header" class="sub_title_ubuntu black_text">vip pre-registration.</h1>
+                
+                <p id="register_text" class="text_ysabeau black_text">
+                    All VIP tickets include exclusive access to the vip area, backstage and the vip restaurant.
+                    <br>
+                </p>
+
+                
                 <form id="register_form" action="">
-                    <div class="form_div">
-                        <label class="form_label" for="firstname">First Name:</label>
-                        <input class="form_input" type="text" name="firstname" id="firstname" required>
+                    <div id="register_form_number" class="register_form_div">
+                        <label class="register_form_label" for="number"><b>How many tickets?</b></label>
+                        <input id="register_form_number_input" class="register_form_input" type="number" class="form-control" id="number" name="number" min="1" max="4" value="2">
                     </div>
-                    <div class="form_div">
-                        <label class="form_label" for="lastname">Last Name</label>
-                        <input class="form_input" type="text" name="lastname" id="lastname" required>
-                    </div>
-                    <div class="form_div">
-                        <label class="form_label" for="email">E-mail</label>
-                        <input class="form_input" type="text" name="email" id="email" required>
-                    </div>
-                    <div  class="form_div">
-                        <label class="form_label" id="section_subsribe_ctry_label" for="section_subsribe_ctry_value">Choose your country:</label>
-                        <select class="form_input" id="section_subscribe_country"  name="section_subsribe_ctry_value" required>
-                            <option value=""></option>
-                            <option value="Afghanistan">Afghanistan</option>
-                            <option value="Åland Islands">Åland Islands</option>
-                            <option value="Belgium">Belgium</option>
-                            <option value="Belize">Belize</option>
-                            <option value="Chile">Chile</option>
-                            <option value="China">China</option>
-                            <option value="Djibouti">Djibouti</option>
-                            <option value="Dominica">Dominica</option>
-                            <option value="Jordan">Jordan</option>
-                            <option value="Kazakhstan">Kazakhstan</option>
-                            <option value="Kenya">Kenya</option>
-                            <option value="Kiribati">Kiribati</option>
-                            <option value="Luxembourg">Luxembourg</option>
-                            <option value="Sweden">Sweden</option>
-                            <option value="Switzerland">Switzerland</option>
-                            <option value="Syrian Arab Republic">Syrian Arab Republic</option>
-                            <option value="Taiwan">Taiwan</option>
-                            <option value="Trinidad and Tobago">Trinidad and Tobago</option>
-                            <option value="Western Sahara">Western Sahara</option>
-                            <option value="Yemen">Yemen</option>
-                            <option value="Zambia">Zambia</option>
-                            <option value="Zimbabwe">Zimbabwe</option>
-                        </select>
-                    </div>
-                    <div id="subscribe_div" class="form_div">
-                        <button id="subscribe" class="button_hover">subscribe.</button>
-                    </div>
+
+                    <fieldset id="register_ul_container"  class="fieldset_margin">
+                        <legend style="text-align: center;">Choose your ticket category</legend>
+
+
+                            <div>
+                                <input type="radio" name="ticketcategory" id="register_p1_input" class="text_small_ysabeau section_text_layout radiohidden"
+                                    value="rent_a_tent" required>
+                                <label class="register_form_label fullheight labelmax" for="register_p1_input">
+                                    <div>
+                                        <h4 id="register_h4_1" class="sub_sub_title_ubuntu black_text underlined">Rent-A-Tent Ticket</h4>
+                                        <p id="register_p1" class="text_small_ysabeau section_text_layout black_text">
+                                            You will be given a tent package for two as soon as you enter the festival area. This package includes 
+                                            sleeping bags, pillows and two camping chairs. You will have access to lobkable toilets 
+                                            (floating water). Each eternal fan is limited to buy up to 8 tickets.
+                                            <br>
+                                        </p>
+                                    </div>
+                                </label> 
+                                
+                            </div>
+                            <div>
+                                <input type="radio" name="ticketcategory" id="register_p2_input" class="text_small_ysabeau section_text_layout radiohidden " value="booth" required>
+                                <label class="register_form_label fullheight labelmax" for="register_p2_input">
+                                    <div>
+                                        <h4 id="register_h4_2" class="sub_sub_title_ubuntu black_text fullheight">Booth Ticket</h4>
+                                        <p id="register_p2" class="text_small_ysabeau section_text_layout black_text">
+                                            For more comfort, you can rent a booth for two. It includes two beds, blankets, pillows, electricity plaugs and comfortable 
+                                            camping chairs. In addition, you will have a locker to secure your personal belongings. You will have access to lockable 
+                                            toilets (floating water). Each eternal fan is limited to buy up to 4 tickets at once.
+                                            <br>
+                                        </p>
+                                    </div>
+                                </label>
+                            </div>
+                            <div>
+                                <input type="radio" name="ticketcategory" id="register_p3_input" class="text_small_ysabeau section_text_layout radiohidden" value="hotel" required>
+                                <label class="register_form_label fullheight labelmax" for="register_p3_input">
+                                    <div>
+                                        <h4 id="register_h4_3" class="sub_sub_title_ubuntu black_text">Hotel Ticket</h4>
+                                        <p id="register_p3" class="text_small_ysabeau section_text_layout black_text">
+                                            For exclusive comfort, you will be allocated to a hotel room around the island. To each hotel, there is a shuttle every full hour. 
+                                            Upon request, there will be a full breakfast (also vegan/vegetarian). Please note that you can't choose the hotel. Each eternal fan 
+                                            is limited to buy up to 4 tickets.
+                                            <br>
+                                        </p>
+                                    </div>
+                                </label>
+                            </div>
+                    </fieldset>
+                    
+
+
+                    <fieldset class="fieldset_margin">
+                        <legend style="text-align: center;">Choose your ticket category</legend>
+                        <div>
+                            <input type="radio" name="airport" id="register_cdg" class="text_small_ysabeau section_text_layout radiohidden" value="hotel" required>
+                            <label class="register_form_label fullheight labelmax airportspacing" for="register_cdg">
+                                <h4 class="sub_sub_title_ubuntu black_text">Paris CDG</h4>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="airport" id="register_london" class="text_small_ysabeau section_text_layout radiohidden" value="hotel" required>
+                            <label class="register_form_label fullheight labelmax airportspacing" for="register_london">
+                                <h4 class="sub_sub_title_ubuntu black_text">London Heathrow</h4>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="airport" id="register_fra" class="text_small_ysabeau section_text_layout radiohidden" value="hotel" required>
+                            <label class="register_form_label fullheight labelmax airportspacing" for="register_fra">
+                                <h4 class="sub_sub_title_ubuntu black_text">Frankfurt FRA</h4>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="airport" id="register_jfk" class="text_small_ysabeau section_text_layout radiohidden" value="hotel" required>
+                            <label class="register_form_label fullheight labelmax airportspacing" for="register_jfk">
+                                <h4 class="sub_sub_title_ubuntu black_text">New York JFK</h4>
+                            </label>
+                        </div>
+                        <div>
+                            <input type="radio" name="airport" id="register_mex" class="text_small_ysabeau section_text_layout radiohidden" value="hotel" required>
+                            <label class="register_form_label fullheight labelmax airportspacing" for="register_mex">
+                                <h4 class="sub_sub_title_ubuntu black_text">Mexico MEX</h4>
+                            </label>
+                        </div>
+                    </fieldset>
+
+
+                    
+    
+                        <div class="register_form_div">
+                            <label class="register_form_label" for="firstname">First Name:</label>
+                            <input class="register_form_input" type="text" name="firstname" id="firstname" required>
+                        </div>
+                        <div class="register_form_div">
+                            <label class="register_form_label" for="lastname">Last Name</label>
+                            <input class="register_form_input" type="text" name="lastname" id="lastname" required>
+                        </div>
+                        <div class="register_form_div">
+                            <label class="register_form_label" for="email">E-mail</label>
+                            <input class="register_form_input" type="text" name="email" id="email" required>
+                        </div>
+                        <div  class="register_form_div">
+                            <label class="register_form_label" id="section_subsribe_ctry_label" for="section_subsribe_ctry_value">Choose your country:</label>
+                            <select class="register_form_input" id="section_subscribe_country"  name="section_subsribe_ctry_value" required>
+                                <option value=""></option>
+                                <option value="Afghanistan">Afghanistan</option>
+                                <option value="Åland Islands">Åland Islands</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Belize">Belize</option>
+                                <option value="Chile">Chile</option>
+                                <option value="China">China</option>
+                                <option value="Djibouti">Djibouti</option>
+                                <option value="Dominica">Dominica</option>
+                                <option value="Jordan">Jordan</option>
+                                <option value="Kazakhstan">Kazakhstan</option>
+                                <option value="Kenya">Kenya</option>
+                                <option value="Kiribati">Kiribati</option>
+                                <option value="Luxembourg">Luxembourg</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Switzerland">Switzerland</option>
+                                <option value="Syrian Arab Republic">Syrian Arab Republic</option>
+                                <option value="Taiwan">Taiwan</option>
+                                <option value="Trinidad and Tobago">Trinidad and Tobago</option>
+                                <option value="Western Sahara">Western Sahara</option>
+                                <option value="Yemen">Yemen</option>
+                                <option value="Zambia">Zambia</option>
+                                <option value="Zimbabwe">Zimbabwe</option>
+                            </select>
+                        </div>
+                        <div id="register_button_container" class="form_div">
+                            <button id="register_bt" class="button_hover">pre-register.</button>
+                        </div>
+                  
                 </form>
             </div>
 
