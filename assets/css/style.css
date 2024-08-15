@@ -162,7 +162,6 @@ section > p {
 
 .register_form_div {
     margin: 17px auto;
-    width: 80%;
 
 }
 
@@ -651,6 +650,14 @@ details > p {
     margin: auto 10px;
 }
 
+.register_form_double_text {
+    display: block;
+}
+
+.register_form_div_text {
+    margin: 7px auto;
+}
+
 
 /* -------------------- MEDIA QUERIES -------------------- */
 /* 1 TABLET FROM 768px - changed to 780: ipad mini has too less space for an expanded nav.. */
@@ -793,6 +800,12 @@ details > p {
         width: 70%;
     }
 
+    .register_form_input {
+        display: block;
+        font-family: "Ysabeau", sans-serif;
+        width: 250px;
+    }
+
 
     /* PAGE 3: preregister.html ---------------------------------- */
     #register_p1,
@@ -825,6 +838,11 @@ details > p {
 
     #register_form {
         margin: auto 25px;
+    }
+
+    .register_form_double_text {
+        display: flex;
+        justify-content: space-evenly;
     }
 
 }
