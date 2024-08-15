@@ -624,6 +624,10 @@ details > p {
     background-color: rgb(255, 188, 45);
 }
 
+#register_form {
+    margin: auto 10px;
+}
+
 
 /* -------------------- MEDIA QUERIES -------------------- */
 /* 1 TABLET FROM 768px - changed to 780: ipad mini has too less space for an expanded nav.. */
@@ -768,17 +772,16 @@ details > p {
 
 
     /* PAGE 3: preregister.html ---------------------------------- */
-    #register_p1 {
-        text-align: left;
+    #register_p1,
+    #register_h4_1,
+    #register_p2,
+    #register_h4_2,
+    #register_p3,
+    #register_h4_3 {
+        text-align:center;
     }
 
-    #register_p2 {
-        text-align: center;
-    }
 
-    #register_p3 {
-        text-align: right;
-    }
 
     #register_ul_container {
         display: grid;
@@ -787,18 +790,6 @@ details > p {
     }
 
 
-
-    #register_h4_1 {
-        text-align: left;
-    }
-
-    #register_h4_2 {
-        text-align: center;
-    }
-
-    #register_h4_3 {
-        text-align: right;
-    }
 
     #register_airports>li {
         text-align: center;
@@ -809,7 +800,9 @@ details > p {
         max-width: 230px;
     }
 
-
+    #register_form {
+        margin: auto 25px;
+    }
 
 }
 
