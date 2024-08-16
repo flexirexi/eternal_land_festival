@@ -88,6 +88,24 @@ Arial has been used as a neutral font without serifs.
 Ubuntu font (taken from [Google fonts](https://fonts.google.com/specimen/Ubuntu)) is used for headers. It is a soft and well known sans-serif font. 
 
 ### Structure
+The main page (index.html) is structured intuitively. Each section has its own screen wide block, even in desktop mode. The visitor only need to scroll up and down to consume one webpage - a mix of facts and emotions. The landing page (title image) appeals to the emotional side of the customer. The next sections don't disturb with too complex layouts, information or interactions. 
+
+There are two complex topics by now which are presented in separate pages. The FAQ page provides many details about the ticketing, the journey and the festival. The third page provides the form where visitors can pre-register for VIP tickets. Here we need some more details. Here is a general structure of the webpages:
+- index.html (home page)
+   - nav bar with a pre-registration button
+   - sections with occasional facts and impressions (such as title, galleries, video, short overview, ticket information, vip section, and subscription section)
+   - footer with social media links
+- faq.html (frequently asked questions page)
+  - same nav bar as the home page with pre-registration link
+  - 3 sections: information about tickets, the journey and the festival itself
+  - same footer as home page
+- preregistration.html (pre-registration form)
+  - nav without links (the page shall not invite the visitor to go back)
+  - pre-registration form with preferred choices and personal data
+  - same footer as home page
+
+
+
 
 ### Wireframes
 
@@ -102,7 +120,14 @@ Ubuntu font (taken from [Google fonts](https://fonts.google.com/specimen/Ubuntu)
 
 # Features
 ## Existing features
-
+      - title section
+      - section for when/where
+      - video and gallery section
+      - welcome section to give the visitor a short overview 
+      - line-up section to list all artists that are confirmed by now
+      - second gallery section
+      - ticket information section
+      - vip section with pre-registration button
 ## Upcoming features
 
 
