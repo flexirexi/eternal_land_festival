@@ -144,14 +144,20 @@ Although a mobile first development was applied, the wireframes show the pages m
 
 # Features
 ## Existing features
-      - title section
-      - section for when/where
-      - video and gallery section
-      - welcome section to give the visitor a short overview 
-      - line-up section to list all artists that are confirmed by now
-      - second gallery section
-      - ticket information section
-      - vip section with pre-registration button
+### Logo and Navigation bar
+- on all 3 pages
+- logo is a link to the home page
+- the nav links are only visible on the faq page and the home page, the visitor shouldn't be invited to go back from the pre-registration page 
+- the nav links navigate through the section of the home page  
+- the bar is fully responsive and collapses the nav links once the screen is below 780px, there is no need to expand the menu at 670px already
+
+home nav bar collapsed: <br>
+![Mockup image](docs/features/nav_bar_home_col.png)
+
+home nav bar expanded:
+![Mockup image](docs/features/nav_bar_home_exp.png)
+
+
 ## Upcoming features
 
 
