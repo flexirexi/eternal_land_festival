@@ -11,6 +11,74 @@ All other visitors, whether undecided or interested in a regular ticket, can sub
 
 [Live Webpage](https://flexirexi.github.io/eternal_land_festival/)
 
+___
+
+# Table of content
+
+1. [User Experience](#user-experience)
+2. [User Stories](#user-stories)
+   1. [First-time user](#first-time-user)
+   2. [Returning user](#returning-user)
+   3. [Site Owner](#site-owner)
+3. [Design](#design)
+   1. [Fonts](#font)
+   2. [Structure](#structure)
+   3. [Wireframes](#wireframes)
+4. [Technologies used](#technologies-used)
+   1. [Languages](#languages)
+   2. [Frameworks & tools](#frameworks-and-tools)
+5. [Features](#features)
+   1. [Existing features](#existing-features)
+   2. [Upcoming features](#upcoming-features)
+6. [Testing](#testing)
+   1. [Validator testing](#validator-testing)
+      1. [HTML](#html)
+      2. [CSS](#css)
+      3. [Performance](#performance)
+      4. [Responsiveness](#responsiveness)
+      5. [Accessability](#accessability)
+  2. [Fixed bugs](#fixed-bugs)
+  3. [Unfixed bugs](#unfixed-bugs)
+  4. [User Story testing](#user-story-testing)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+   1. [Content](#content)
+   2. [Media](#media)
+
+
+
+
+# User Experience
+## User Stories
+### First-time user
+### Returning user
+### Site Owner
+## Design
+### Fonts
+### Structure
+### Wireframes
+# Technologies used
+## Languages
+## Frameworks and tools
+# Features
+## Existing features
+## Upcoming features
+# Testing
+## Validator testing
+### HTML
+### CSS
+### Performance
+### Responsiveness
+### Accessability
+## Fixed Bugs
+## Unfixed Bugs
+## User Story testing
+# Deployment
+# Credits
+## Content
+## Media
+
+
 
 
 
