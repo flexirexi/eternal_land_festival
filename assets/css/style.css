@@ -333,9 +333,9 @@ nav li {
     
     height: 95vh;
     padding-top: 55px;
-    background-image: url("../img/festival02.jpg");
+    /* background-image: url("../img/festival02.jpg");
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
 }
 
 #section_title_facts {
