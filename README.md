@@ -84,6 +84,8 @@ ___
 
 ## Design
 ### Fonts
+Arial has been used as a neutral font without serifs.
+Ubuntu font (taken from [Google fonts](https://fonts.google.com/specimen/Ubuntu)) is used for headers. It is a soft and well known sans-serif font. 
 
 ### Structure
 
