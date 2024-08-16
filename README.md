@@ -1,11 +1,23 @@
 # Eternal Land Festival
 (Developer: Felix Lehmann)
 
+This website promotes the first state of an EDM Festival called "Eternal Land Festival" - in the middle of the Atlantic Ocean. Many photos and one video of the last years' events will motivate fans of electronic music to participate. For three days, world famous DJs will perform their latest sets to give the audience an unforgettable experience. The line-up on the website shall support the motivation process. It helps to decide rather quickly.  
+
+The festival will offer VIP tickets. They are more expensive but provide more exclusivity. Usually, prospective customers choose the regular ticket over the VIP ticket when comparing them at the same time. That's why they are sold out quickly. To counteract this, the websites offers a pre-registration form for the VIP tickets. That increases the chance for the visitors to get a ticket, even if they fail to get a regular one. The motto: "I'd be willing to pay VIP tickets but I want to try purchasing a regular one first."
+
+All other visitors, whether undecided or interested in a regular ticket, can subscribe a newsletter. 
+
+![Mockup image](docs/landing_page_screenshot.png)
+
+[Live Webpage](https://flexirexi.github.io/eternal_land_festival/)
+
 
 
 
 
 _________
+
+
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
 Welcome Felix Lehmann,
