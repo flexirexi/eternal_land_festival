@@ -125,8 +125,20 @@ Although a mobile first development was applied, the wireframes show the pages m
 
 # Technologies used
 ## Languages
+- HTML
+- CSS
 
 ## Frameworks and tools
+- Git
+- GitHub
+- Gitpod
+- Tinypng
+- Greenshot
+- Balsamiq
+- Google Fonts
+- Font Awesome
+- Google Chrome dev tools
+
 
 
 
