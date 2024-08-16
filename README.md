@@ -65,9 +65,22 @@ ___
 
 ## User Stories
 ### First-time user
-
+*As a first-time user*
+- I want to know what kind of festival that is and what I can exptect from it
+- I want to know when and how long it takes place
+- I want to know where it takes place
+- I want to see images and videos that show me the feeling of the festival - generally, the vibe
+- I want social media presence: links to tiktok, instagram (possible facebook and X)
 
 ### Returning user
+*As a returning user*
+- I want to know how the stay is being managed
+- I want to know the latest updates for the line up
+- I want to know when the official ticket sale starts
+- I want detailed information about the tickets, if possible
+- I want to know how I can pre-register to buy preferred VIP tickets
+- I have several organisational questions that might be specific but frequently asked - I want them to be answered
+- I want to subscribe to a newsletter, I am interested but not in a VIP ticket
 
 ### Site Owner
 
