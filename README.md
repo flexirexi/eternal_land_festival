@@ -17,9 +17,11 @@ ___
 
 1. [User Experience](#user-experience)
 2. [User Stories](#user-stories)
-   1. [First-time user](#first-time-user)
-   2. [Returning user](#returning-user)
-   3. [Site Owner](#site-owner)
+   1. [Target audience](#target-audience)
+   2. [User expectations](#user-expectations)
+   3. [First-time user](#first-time-user)
+   4. [Returning user](#returning-user)
+   5. [Site Owner](#site-owner)
 3. [Design](#design)
    1. [Fonts](#font)
    2. [Structure](#structure)
@@ -50,32 +52,65 @@ ___
 
 # User Experience
 ## User Stories
+### Target audience
+### User expectations
 ### First-time user
+
 ### Returning user
+
 ### Site Owner
+
 ## Design
 ### Fonts
+
 ### Structure
+
 ### Wireframes
+
+
+
 # Technologies used
 ## Languages
+
 ## Frameworks and tools
+
+
+
 # Features
 ## Existing features
+
 ## Upcoming features
+
+
+
 # Testing
 ## Validator testing
 ### HTML
+
 ### CSS
+
 ### Performance
+
 ### Responsiveness
+
 ### Accessability
+
+
 ## Fixed Bugs
+
 ## Unfixed Bugs
+
 ## User Story testing
+
+
+
 # Deployment
+
+
+
 # Credits
 ## Content
+
 ## Media
 
 
