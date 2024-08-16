@@ -21,7 +21,6 @@ ___
    3. [User Stories](#user-stories)
       1. [First-time user](#first-time-user)
       2. [Returning user](#returning-user)
-      3. [Site Owner](#site-owner)
    4. [Design](#design)
       1. [Fonts](#font)
       2. [Structure](#structure)
@@ -82,7 +81,6 @@ ___
 - I have several organisational questions that might be specific but frequently asked - I want them to be answered
 - I want to subscribe to a newsletter, I am interested but not in a VIP ticket
 
-### Site Owner
 
 ## Design
 ### Fonts

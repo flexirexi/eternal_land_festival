@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Arial", sans-serif;
 }
 
 h1,
@@ -18,7 +19,7 @@ h3 {
 }
 
 body {
-    font-family: "Ysabeau";
+    font-family: "Arial";
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -90,14 +91,14 @@ footer {
 }
 
 .text_ysabeau {
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     color: #cbd5e3;
     font-size: 16px;
     text-align: center;
 }
 
 .text_small_ysabeau {
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     color: #cbd5e3;
     font-size: 13px;
 }
@@ -107,7 +108,7 @@ footer {
 }
 
 .black_text {
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     color: black;
 }
 
@@ -149,14 +150,14 @@ section > p {
 
 .form_label {
     display: block;
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 0.7em;
     margin-bottom: 8px;
 }
 
 .form_input {
     display: block;
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     width: 100%;
 }
 
@@ -167,7 +168,7 @@ section > p {
 
 .register_form_label {
     display: block;
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 0.7em;
     margin-bottom: 5px;
     margin-top: 5px;
@@ -184,7 +185,7 @@ section > p {
 
 .register_form_label_airport {
     display: block;
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     font-size: 0.7em;
     margin-bottom: 15px;
     border-radius: 5px;
@@ -194,7 +195,7 @@ section > p {
 
 .register_form_input {
     display: block;
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     width: 100%;
     padding: 5px;
 }
@@ -403,7 +404,7 @@ nav li {
 }
 
 #section_lineup_starringdj h4 {
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     color: rgb(255, 188, 45);
     margin: 5px auto;
 }
@@ -572,7 +573,7 @@ details > summary {
 }
 
 details > p {
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     color: #cbd5e3;
     margin: 10px auto;
     width: 70%;
@@ -584,7 +585,7 @@ details > p {
     width: fit-content;
     margin: 0 auto;
     text-align: left;
-    font-family: "Ysabeau", sans-serif;
+    font-family: "Arial", sans-serif;
     color: #bdc6d2;
     margin-top: -30px;
     margin-bottom: 50px;
@@ -804,7 +805,7 @@ details > p {
     }
 
     #section_ticket_sale {
-        font-family: "Ysabeau", sans-serif;
+        font-family: "Arial", sans-serif;
         margin-top: 40px;
     }
 
@@ -820,7 +821,7 @@ details > p {
 
     .register_form_input {
         display: block;
-        font-family: "Ysabeau", sans-serif;
+        font-family: "Arial", sans-serif;
         width: 95%;
     }
 
