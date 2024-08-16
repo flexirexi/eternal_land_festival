@@ -108,8 +108,20 @@ There are two complex topics by now which are presented in separate pages. The F
 
 
 ### Wireframes
+Although a mobile first development was applied, the wireframes show the pages more or less in desktop mode. That's because the the elements are arranged below each other in general. Only the nav bar and the ticket information are different. 
 
-
+<details>
+  <summary>home (index.html)</summary>
+  <img src="docs/wireframes/wireframe_index.png" width="400px">
+</details>
+<details>
+  <summary>pre-register page (preregister.html)</summary>
+  <img src="docs/wireframes/wireframe_preregister.png" width="400px">
+</details>
+<details>
+  <summary>faq pag (faq.html)</summary>
+  <img src="docs/wireframes/wireframe_faq.png" width="400px">
+</details>
 
 # Technologies used
 ## Languages
