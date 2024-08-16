@@ -44,10 +44,13 @@
     <main>
         <section id="section_title">
             <h1 id="section_title_header" class="title_ubuntu">be eternal.</h1>
-            <picture>
-                <source id="section_title_img1"  media="(min-width:760px)" srcset="assets/img/festival02.jpg">
-                <img id="section_title_img2" src="assets/img/festival02y.jpg" alt="Eternal Land Festival Title image">
-            </picture>
+            <div>
+                 <picture>
+                    <source id="section_title_img1"  media="(min-width:720px)" srcset="assets/img/festival02.jpg">
+                    <img id="section_title_img2" src="assets/img/festival02y.jpg" alt="Eternal Land Festival Title image">
+                </picture> 
+
+            </div>
         </section>
         
         <section id="section_title_facts" class="section_padding">
@@ -56,7 +59,11 @@
         </section>
 
         <section id="section_video">
-            <video src="https://videos.pexels.com/video-files/3941287/3941287-uhd_2560_1440_30fps.mp4" width="100%" controls="pause" muted loop onclick="this.paused ? this.play() : this.pause();" ></video>
+            <video poster="assets/img/video_img.jpg" width="100%" controls muted>
+                <source src="https://videos.pexels.com/video-files/3941287/3941287-uhd_2560_1440_30fps.mp4" type="video/ogg">
+                Your browser does not support the video tag.
+            </video>
+        
         </section>
 
         <section id="section_gallery">
