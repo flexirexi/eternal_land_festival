@@ -49,11 +49,11 @@
 
                     <picture id="section_title_container">
                         <source srcset="assets/img/festival02.jpg" media="(min-width:780px)" width="100%">
-                        <source id="section_title_img5" srcset="assets/img/festival02_680.jpg"  media="(min-width:680px)"  alt="Eternal Land Festival Title image" >
-                        <source id="section_title_img4" srcset="assets/img/festival02_580.jpg"  media="(min-width:580px)"  alt="Eternal Land Festival Title image" >
-                        <source id="section_title_img3" srcset="assets/img/festival02_480.jpg"  media="(min-width:480px)"  alt="Eternal Land Festival Title image" >
-                        <source id="section_title_img2"  srcset="assets/img/festival02_380.jpg" media="(min-width:380px)"   alt="Eternal Land Festival Title image" >
-                        <source id="section_title_img1"  srcset="assets/img/festival02_280.jpg" media="(min-width:200px)"   alt="Eternal Land Festival Title image" >
+                        <source id="section_title_img5" srcset="assets/img/festival02_680.jpg"  media="(min-width:680px)" >
+                        <source id="section_title_img4" srcset="assets/img/festival02_580.jpg"  media="(min-width:580px)" >
+                        <source id="section_title_img3" srcset="assets/img/festival02_480.jpg"  media="(min-width:480px)" >
+                        <source id="section_title_img2"  srcset="assets/img/festival02_380.jpg" media="(min-width:380px)" >
+                        <source id="section_title_img1"  srcset="assets/img/festival02_280.jpg" media="(min-width:200px)" >
                         <img src="assets/img/festival02y.jpg" alt="Eternal Land Festival Title image">
                     </picture> 
                 
@@ -68,7 +68,7 @@
         </section>
 
         <section id="section_video">
-            <video width="100%" controls muted preload="none" poster="assets/img/video_img.jpg">
+            <video controls muted preload="none" poster="assets/img/video_img.jpg">
                 <source  src="https://videos.pexels.com/video-files/3941287/3941287-uhd_2560_1440_30fps.mp4" type="video/ogg">
                 Your browser does not support the video tag.
             </video>
@@ -122,7 +122,7 @@
         </section>
 
         <section id="section_ticket" class="section_layout">
-            <h1 id="section_ticket" class="sub_title_ubuntu">ticket information.</h1>
+            <h1 id="section_ticket_h" class="sub_title_ubuntu">ticket information.</h1>
 
             <p id="section_ticket_text" class="text_arial">
                 All tickets include the flight from one of 5 airports as well as the overnight stay. First, choose your ticket category, 
@@ -208,7 +208,7 @@
             <div id="section_stay_tuned_card" >
                 <h1 id="section_stay_tuned_header" class="sub_title_ubuntu">stay tuned.</h1>
 
-                <form id="section_stay_tuned_form" action="">
+                <form id="section_stay_tuned_form" action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                     <div class="form_div">
                         <label class="form_label" for="firstname">First Name:</label>
                         <input class="form_input" type="text" name="firstname" id="firstname" required>
@@ -219,7 +219,7 @@
                     </div>
                     <div class="form_div">
                         <label class="form_label" for="email">E-mail</label>
-                        <input class="form_input" type="text" name="email" id="email" required>
+                        <input class="form_input" type="email" name="email" id="email" required>
                     </div>
 
                     <div id="subscribe_div" class="form_div">

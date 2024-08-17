@@ -52,6 +52,10 @@ main {
     margin-top: 45px;
 }
 
+video {
+    width: 100%;
+}
+
 footer {
     background-color: lightgray;
     padding: 4%;
@@ -340,10 +344,7 @@ nav li {
     background-size: cover; */
 }
 
-#section_title_img2 {
-    
-    
-}
+
 
 #section_title_facts {
     display: flex;
