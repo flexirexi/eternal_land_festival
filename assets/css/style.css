@@ -238,6 +238,23 @@ input[type=radio]:hover + label {
     padding-top: 5px;
 }
 
+.label_text {
+    text-align: center;
+    margin: auto 0;
+}
+
+.label_airport  {
+    padding: 5px;
+    font-style: "Arial", sans-serif;
+    font-size: 34px;
+    height: 100px;
+}
+
+.label_airp {
+    padding: 18px 15px;
+    font-size: 0.9em;
+}
+
 /* 03 Specific ELEMENTS that are used sidewide ------------------------------- */
 
 #header_logo {

@@ -40,8 +40,8 @@
                 
                 <form id="register_form"  action="https://formdump.codeinstitute.net/" method="POST" target="_blank">
                     <div id="register_form_number" class="register_form_div">
-                        <label class="register_fieldset_legend_text" for="number">How many tickets?</label>
-                        <input id="register_form_number_input" class="register_form_input" type="number" class="form-control" id="number" name="number" min="1" max="4" value="2">
+                        <label class="register_fieldset_legend_text" for="register_form_number_input">How many tickets?</label>
+                        <input id="register_form_number_input" type="number" class="form-control register_form_input" name="number" min="1" max="4" value="2">
                     </div>
 
                     <fieldset id="register_ticket_container"  class="fieldset_margin_padding">
@@ -51,45 +51,42 @@
                             <div>
                                 <input type="radio" name="ticketcategory" id="register_p1_input" class="text_small_arial section_text_layout radiohidden"
                                     value="rent_a_tent" required>
-                                <label class="register_form_label fullheight labelmax" for="register_p1_input">
-                                    <div>
-                                        <h4 id="register_h4_1" class="sub_sub_title_ubuntu black_text underlined">Rent-A-Tent Ticket</h4>
-                                        <p id="register_p1" class="text_small_arial section_text_layout black_text">
-                                            You will be given a tent package for two as soon as you enter the festival area. This package includes 
-                                            sleeping bags, pillows and two camping chairs. You will have access to lobkable toilets 
-                                            (floating water). Each eternal fan is limited to buy up to 8 tickets.
+                                <label class="register_form_label fullheight labelmax black_text label_text" for="register_p1_input">
+                               
+                                        <u>Rent-A-Tent Ticket</u> <br><br>
+                                        You will be given a tent package for two as soon as you enter the festival area. This package includes 
+                                        sleeping bags, pillows and two camping chairs. You will have access to lobkable toilets 
+                                        (floating water). Each eternal fan is limited to buy up to 8 tickets.
                                             <br>
-                                        </p>
-                                    </div>
+                                        
+                                   
                                 </label> 
                                 
                             </div>
                             <div>
                                 <input type="radio" name="ticketcategory" id="register_p2_input" class="text_small_arial section_text_layout radiohidden " value="booth" required>
-                                <label class="register_form_label fullheight labelmax" for="register_p2_input">
-                                    <div>
-                                        <h4 id="register_h4_2" class="sub_sub_title_ubuntu black_text fullheight">Booth Ticket</h4>
-                                        <p id="register_p2" class="text_small_arial section_text_layout black_text">
-                                            For more comfort, you can rent a booth for two. It includes two beds, blankets, pillows, electricity plaugs and comfortable 
-                                            camping chairs. In addition, you will have a locker to secure your personal belongings. You will have access to lockable 
-                                            toilets (floating water). Each eternal fan is limited to buy up to 4 tickets at once.
-                                            <br>
-                                        </p>
-                                    </div>
+                                <label class="register_form_label fullheight labelmax black_text label_text" for="register_p2_input">
+                                   
+                                    <u>Booth Ticket</u> <br><br>
+                                    For more comfort, you can rent a booth for two. It includes two beds, blankets, pillows, electricity plaugs and comfortable 
+                                    camping chairs. In addition, you will have a locker to secure your personal belongings. You will have access to lockable 
+                                    toilets (floating water). Each eternal fan is limited to buy up to 4 tickets at once.
+                                        <br>
+                                    
+                          
                                 </label>
                             </div>
                             <div>
                                 <input type="radio" name="ticketcategory" id="register_p3_input" class="text_small_arial section_text_layout radiohidden" value="hotel" required>
-                                <label class="register_form_label fullheight labelmax" for="register_p3_input">
-                                    <div>
-                                        <h4 id="register_h4_3" class="sub_sub_title_ubuntu black_text">Hotel Ticket</h4>
-                                        <p id="register_p3" class="text_small_arial section_text_layout black_text">
-                                            For exclusive comfort, you will be allocated to a hotel room around the island. To each hotel, there is a shuttle every full hour. 
-                                            Upon request, there will be a full breakfast (also vegan/vegetarian). Please note that you can't choose the hotel. Each eternal fan 
-                                            is limited to buy up to 4 tickets.
-                                            <br>
-                                        </p>
-                                    </div>
+                                <label class="register_form_label fullheight labelmax black_text label_text" for="register_p3_input">
+                                 
+                                        <u>Hotel Ticket</u> <br> <br>
+                                        For exclusive comfort, you will be allocated to a hotel room around the island. To each hotel, there is a shuttle every full hour. 
+                                        Upon request, there will be a full breakfast (also vegan/vegetarian). Please note that you can't choose the hotel. Each eternal fan 
+                                        is limited to buy up to 4 tickets.
+                                        <br>
+                                   
+                                   
                                 </label>
                             </div>
                     </fieldset>
@@ -101,32 +98,32 @@
                         <div class="register_form_airport">
                             <div >
                                 <input type="radio" name="airport" id="register_cdg" class="text_small_arial section_text_layout_airport radiohidden" value="hotel" required>
-                                <label class="register_form_label_airport fullheight labelmax airportspacing" for="register_cdg">
-                                    <h4 class="sub_sub_title_ubuntu black_text">Paris CDG</h4>
+                                <label class="register_form_label_airport label_airp fullheight labelmax airportspacing"  for="register_cdg">
+                                    <b>Paris CDG</b>
                                 </label>
                             </div>
                             <div>
                                 <input type="radio" name="airport" id="register_london" class="text_small_arial section_text_layout_airport radiohidden" value="hotel" required>
-                                <label class="register_form_label_airport fullheight labelmax airportspacing" for="register_london">
-                                    <h4 class="sub_sub_title_ubuntu black_text">London Heathrow</h4>
+                                <label class="register_form_label_airport label_airp fullheight labelmax airportspacing"  for="register_london">
+                                    <b>London Heathrow</b>
                                 </label>
                             </div>
                             <div>
                                 <input type="radio" name="airport" id="register_fra" class="text_small_arial section_text_layout_airport radiohidden" value="hotel" required>
-                                <label class="register_form_label_airport fullheight labelmax airportspacing" for="register_fra">
-                                    <h4 class="sub_sub_title_ubuntu black_text">Frankfurt FRA</h4>
+                                <label class="register_form_label_airport label_airp fullheight labelmax airportspacing" for="register_fra">
+                                    <b>Frankfurt FRA</b>
                                 </label>
                             </div>
                             <div>
                                 <input type="radio" name="airport" id="register_jfk" class="text_small_arial section_text_layout_airport radiohidden" value="hotel" required>
-                                <label class="register_form_label_airport fullheight labelmax airportspacing" for="register_jfk">
-                                    <h4 class="sub_sub_title_ubuntu black_text">New York JFK</h4>
+                                <label class="register_form_label_airport label_airp fullheight labelmax airportspacing" for="register_jfk">
+                                    <b>New York JFK</b>
                                 </label>
                             </div>
                             <div>
                                 <input type="radio" name="airport" id="register_mex" class="text_small_arial section_text_layout_airport radiohidden" value="hotel" required>
-                                <label class="register_form_label_airport fullheight labelmax airportspacing" for="register_mex">
-                                    <h4 class="sub_sub_title_ubuntu black_text">Mexico MEX</h4>
+                                <label class="register_form_label_airport label_airp fullheight labelmax airportspacing" for="register_mex">
+                                    <b>Mexico MEX</b>
                                 </label>
                             </div>
                         </div>
@@ -151,7 +148,8 @@
                         </div>
                         <div  class="register_form_div_text">
                             <label class="register_form_label" id="section_subsribe_ctry_label" for="section_subsribe_ctry_value">Choose your country:</label>
-                            <select class="register_form_input" id="section_subscribe_ctry_value"  name="section_subsribe_ctry_value" required>
+                            <select class="register_form_input" id="section_subsribe_ctry_value"  name="section_subsribe_ctry_value" required>
+                                <option value="">Choose..</option>
                                 <option value="Afghanistan">Afghanistan</option>
                                 <option value="Åland Islands">Åland Islands</option>
                                 <option value="Belgium">Belgium</option>
