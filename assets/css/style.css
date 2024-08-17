@@ -379,7 +379,7 @@ nav li {
     top: 120px;
     left: 50%;
     transform: translate(-50%, 0%);
-    min-width: 300px;
+    min-width: 330px;
     margin:0;
     background-color: rgba(36, 36, 36, 0.55);
     border-radius: 50%;
