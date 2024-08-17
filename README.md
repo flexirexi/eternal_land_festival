@@ -502,6 +502,9 @@ by [PSL](https://stackoverflow.com/users/1009603/psl) on [stackoverflow](https:/
 vertically center when absolute positioning: 
 by [Manisha Basra](https://medium.com/@jscodelover?source=post_page-----ea3a9d0ad72e--------------------------------) on [Medium](https://medium.com/front-end-weekly/absolute-centering-in-css-ea3a9d0ad72e)
 
+CodeInstitute:
+Thank you for this opportunity
+
 ## Media
 In order of appearance:
 - [festival01](assets/img/festival01.jpg) by [Sebastian Ervi](https://www.pexels.com/@sebastian-ervi-866902/) on [pexels.com](https://www.pexels.com/photo/silhouette-of-people-in-front-of-stage-1763067/)
