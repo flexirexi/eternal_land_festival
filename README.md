@@ -314,14 +314,103 @@ index.html:
 
 
 ## Fixed Bugs
-| hallo | tschüss | hallo |
-|-------|---------| hallo |
-| hallo | tschüss | hallo |
-| hallo | tschüss | hallo |
+
+html for index.html 1:
+
+![fixed bugs html home 1](docs/validator_testing/html01.png)
+
+html for index.html 2:
+
+![fixed bugs html home 2](docs/validator_testing/html02.png)
+
+html for preregister.html 1:
+
+![fixed bugs html preregister 1](docs/validator_testing/html_preregister01.png)
+
+html for preregister.html 2:
+
+![fixed bugs html preregister 2](docs/validator_testing/html_preregister02.png)
+
 
 ## Unfixed Bugs
+- indirect bug: there must be found a way to show the landing page fully covered with an image without impacting the performance of the pageloading (in lighthouse)
+
 
 ## User Story testing
+### As a first-time user..
+
+** I want to know what kind of festival that is and what I can expect **
+- Feature: welcome section
+- Action: give the user a brief overview about that festival
+- Expected result: the user understands that this is an electronic music festival in the atlantic ocean
+
+
+**  **
+- Feature:
+- Action: 
+- Expected result:
+
+
+** I want to know when  and how long it takes place **
+- Feature: home landing page and faq page, first header
+- Action: inform the user about time and duration 
+- Expected result:the user is informed 
+
+
+** I want to kow wwhere it takes place **
+- Feature: landing page and faq page
+- Action: inform the user about the location of the festival
+- Expected result: the user is informed that this festival is on an island in the atlantic ocean
+
+** I want to see images and videos that show me the feeling  of the festival - generally, the vibe **
+- Feature: gallery1, video section and gallery2
+- Action: play the (aftermovie) video gather impressions from the previous events
+- Expected result: the user will get an idea how this festival is like
+
+** I want social media presence: links to tiktok, instagram (possibly face book and X) **
+- Feature: footer
+- Action: links to official social media channels to connect with other fans/the festival team
+- Expected result: the user will be led to the festival's social media sites
+
+
+### As a returning user...
+
+** I want to know how the stay is being managed **
+- Feature: ticket information section
+- Action: information and overview of 3 possibilities to stay overnight during the festival
+- Expected result: the user will be informed and can prepare for later possible ticket purchases
+
+** I want to know the latest updates for the line-up **
+- Feature: line-up section
+- Action: keep the user up to date about the artists performing at this event
+- Expected result: the user will know the latest status of the line-up
+
+** I want to knwo when the official ticket sale starts **
+- Feature: ticket information section
+- Action: simply inform the client about the official ticket sale start 
+- Expected result: the user is informed that the official sale starts on 20th Jan, 2025 while the vip ticket sale starts one day earlier
+
+** I want detailed information about the tickets, if possible **
+- Feature: ticket information section
+- Action: inform the client that the ticket category is strongly connected to the overnight stay and flight
+- Expected result:the client knows that tickets category is a combination of stay and flight
+
+** I want to know how I can pre-regiater to buy preferred VIP tickets **
+- Feature: vip section on the home page and pre-register web page + the preregister button at the top in the nav bar
+- Action: the vip section explains the VIP ticket and has a link to the vip registration form
+- Expected result: the user will find the registration web page quite easily and quickly
+
+** I have several organisational questions that might be specific **
+- Feature: faq section at the end of the home page and the separate faq page with all information
+- Action: the user will be lead to the faq web page where many questions are answered - it will contineously kept up to date
+- Expected result: The user is generally provided with many details regarding the tickets, the journes and the festival itself
+
+
+** I want to subscribe to a newsletter, I am interested but not in a VIP ticket **
+- Feature: stay tuned section
+- Action: enter name and email to register for the newsletter
+- Expected result: the user will be successfully subscribed
+
 
 
 
