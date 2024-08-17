@@ -334,6 +334,7 @@ html for preregister.html 2:
 
 ## Unfixed Bugs
 - indirect bug: there must be found a way to show the landing page fully covered with an image without impacting the performance of the pageloading (in lighthouse)
+- sometimes, rather random, it can happen that lighthouse measures a performance lower than 90%, even with removing all rendering blocking scripts/imports like google fonts and Font awesome. Not even the removal of the landing page image prevents that. Nevertheless, the performance most of the times above 90%.
 
 
 ## User Story testing
@@ -344,28 +345,45 @@ html for preregister.html 2:
 - Action: give the user a brief overview about that festival
 - Expected result: the user understands that this is an electronic music festival in the atlantic ocean
 
+[experience](docs/user_stories/us01.png)
 
-**I want to know when  and how long it takes place**
+**I want to know when and how long it takes place**
 - Feature: home landing page and faq page, first header
 - Action: inform the user about time and duration 
 - Expected result:the user is informed 
 
+[where it takes place](docs/user_stories/us02.png)
 
 **I want to kow wwhere it takes place**
 - Feature: landing page and faq page
 - Action: inform the user about the location of the festival
 - Expected result: the user is informed that this festival is on an island in the atlantic ocean
 
+[where it takes place](docs/user_stories/us02.png)
+
+or faq page:
+
+ ![home page scroll down](docs/user_stories/us03_1.png)
+
+ ![land on the faq page](docs/user_stories/us03_2.png)
+
 **I want to see images and videos that show me the feeling  of the festival - generally, the vibe**
 - Feature: gallery1, video section and gallery2
 - Action: play the (aftermovie) video gather impressions from the previous events
 - Expected result: the user will get an idea how this festival is like
+
+just scroll down the main page:
+
+![visuals](docs/user_stories/us04_1.png)
+
+![visuals](docs/user_stories/us04_2.png)
 
 **I want social media presence: links to tiktok, instagram (possibly face book and X)**
 - Feature: footer
 - Action: links to official social media channels to connect with other fans/the festival team
 - Expected result: the user will be led to the festival's social media sites
 
+![footer](docs/user_stories/us05.png)
 
 ### As a returning user...
 
@@ -374,30 +392,56 @@ html for preregister.html 2:
 - Action: information and overview of 3 possibilities to stay overnight during the festival
 - Expected result: the user will be informed and can prepare for later possible ticket purchases
 
+![overnight stay management](docs/user_stories/us06.png)
+
 **I want to know the latest updates for the line-up**
 - Feature: line-up section
 - Action: keep the user up to date about the artists performing at this event
 - Expected result: the user will know the latest status of the line-up
+
+![line-up](docs/user_stories/us07.png)
 
 **I want to knwo when the official ticket sale starts**
 - Feature: ticket information section
 - Action: simply inform the client about the official ticket sale start 
 - Expected result: the user is informed that the official sale starts on 20th Jan, 2025 while the vip ticket sale starts one day earlier
 
+![ticket sale start](docs/user_stories/us08.png)
+
 **I want detailed information about the tickets, if possible**
 - Feature: ticket information section
 - Action: inform the client that the ticket category is strongly connected to the overnight stay and flight
 - Expected result:the client knows that tickets category is a combination of stay and flight
+
+this information is in the same overview as how the stay is being managed:
+
+![overnight stay management](docs/user_stories/us06.png)
 
 **I want to know how I can pre-regiater to buy preferred VIP tickets**
 - Feature: vip section on the home page and pre-register web page + the preregister button at the top in the nav bar
 - Action: the vip section explains the VIP ticket and has a link to the vip registration form
 - Expected result: the user will find the registration web page quite easily and quickly
 
+how to get to the pre-register on the home page:
+
+![preregister button](docs/user_stories/us09.png)
+
+then fill the form and choose your preferred options:
+
+![fill pre-registration form](docs/user_stories/us10.png)
+
 **I have several organisational questions that might be specific**
 - Feature: faq section at the end of the home page and the separate faq page with all information
 - Action: the user will be lead to the faq web page where many questions are answered - it will contineously kept up to date
 - Expected result: The user is generally provided with many details regarding the tickets, the journes and the festival itself
+
+navigate through the main page:
+
+![faq button](docs/user_stories/us11.png)
+
+then, click on the headers to expand the headers:
+
+![click on faq heading to read text](docs/user_stories/us12.png)
 
 
 **I want to subscribe to a newsletter, I am interested but not in a VIP ticket**
@@ -405,7 +449,7 @@ html for preregister.html 2:
 - Action: enter name and email to register for the newsletter
 - Expected result: the user will be successfully subscribed
 
-
+![subscribe](docs/user_stories/image.png)
 
 
 # Deployment
@@ -477,139 +521,3 @@ In order of appearance:
 
 
 
-
-
-_________
-
-
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome Felix Lehmann,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
