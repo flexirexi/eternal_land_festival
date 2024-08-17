@@ -267,14 +267,42 @@ desktop version:
 # Testing
 ## Validator testing
 ### HTML
-- done, waiting for git push
+- done using the W3C Markup validation
+
+index.html:
+
+![home html validation ok](docs/validator_testing/html_home_ok.png)
+
+faq.html:
+
+![faq html validation ok](docs/validator_testing/html_faq_ok.png.png)
+
+index.html:
+
+![preregister html validation ok](docs/validator_testing/html_preregister_ok.png.png)
+
+
 
 ### CSS
-- done, ok
+- done, using the W3C CSS validation
+
+![css ok](docs/validator_testing/css_ok.png)
+
+
 
 ### Performance
+- index.html, faq.html and preregister.html are ok
+
+![lighthouse index.html ok](docs/validator_testing/lighthouse_home.png)
+
+![lighthouse faq.html ok](docs/validator_testing/lighthouse_faq.png)
+
+![lighthouse preregister.html ok](docs/validator_testing/lighthouse_preregister.png)
+
 
 ### Responsiveness
+- 
+
 
 ### Accessability
 

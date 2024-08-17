@@ -769,6 +769,10 @@ details > p {
         color: rgb(255, 188, 45);
     }
 
+    #section_title_container {
+        width:100%;
+    }
+
     #section_lineup {
         background: rgba(36, 36, 36, 0.3) url(../img/felix01.jpg);
         background-blend-mode: darken;
