@@ -267,9 +267,10 @@ desktop version:
 # Testing
 ## Validator testing
 ### HTML
-
+- done, waiting for git push
 
 ### CSS
+- done, ok
 
 ### Performance
 

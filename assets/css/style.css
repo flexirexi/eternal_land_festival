@@ -344,7 +344,9 @@ nav li {
     background-size: cover; */
 }
 
-
+#section_title_img0 {
+    width: 100%;
+}
 
 #section_title_facts {
     display: flex;
