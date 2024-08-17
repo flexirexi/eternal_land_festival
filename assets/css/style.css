@@ -90,14 +90,14 @@ footer {
 
 }
 
-.text_ysabeau {
+.text_arial {
     font-family: "Arial", sans-serif;
     color: #cbd5e3;
     font-size: 16px;
     text-align: center;
 }
 
-.text_small_ysabeau {
+.text_small_arial {
     font-family: "Arial", sans-serif;
     color: #cbd5e3;
     font-size: 13px;
@@ -331,13 +331,18 @@ nav li {
 /* PAGE 1: index.html specific ELEMENTS & STYLES ---------------- */
 
 #section_title {
-    
-    height: 95vh;
-
-    overflow: hidden;
-    /* background-image: url("../img/festival02.jpg");
+    margin-bottom: -4px;
+     height: 230px;
+    overflow:hidden;
+  /*  overflow: hidden;
+    background-image: url("../img/festival02.jpg");
     background-position: center;
     background-size: cover; */
+}
+
+#section_title_img2 {
+    
+    
 }
 
 #section_title_facts {
@@ -351,10 +356,11 @@ nav li {
 
 #section_title_header {
     position: absolute;
-    top: 150px;
+    top: 120px;
     left: 50%;
     transform: translate(-50%, 0%);
     min-width: 300px;
+    margin:0;
 }
 
 #section_facts_when {

@@ -158,6 +158,7 @@ home nav bar expanded:
 ![Mockup image](docs/features/nav_bar_home_exp.png)
 
 
+
 ## Upcoming features
 
 
