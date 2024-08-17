@@ -145,27 +145,129 @@ Although a mobile first development was applied, the wireframes show the pages m
 # Features
 ## Existing features
 ### Logo and Navigation bar
+- fully responsive
 - on all 3 pages
+- in mobile size, nav items collapse into an invisible menu which can be made visible by clicking on the burger icon
+- next/below the nav items, there is the pre-registration button, always ready to be clicked
 - logo is a link to the home page
-- the nav links are only visible on the faq page and the home page, the visitor shouldn't be invited to go back from the pre-registration page 
+- the nav links only exist on the faq page and the home page, the visitor shouldn't be invited to go back from the pre-registration page 
 - the nav links navigate through the section of the home page  
-- the bar is fully responsive and collapses the nav links once the screen is below 780px, there is no need to expand the menu at 670px already
 
 home nav bar collapsed: <br>
-![Mockup image](docs/features/nav_bar_home_col.png)
+![home nav bar collapsed](docs/features/nav_bar_home_col.png)
 
 home nav bar expanded:
-![Mockup image](docs/features/nav_bar_home_exp.png)
+![home nav bar expanded](docs/features/nav_bar_home_exp.png)
 
+### landing page and when&where facts
+- same in all sizes
+- appeals to the emotions of the visitor and provides the only important information to know right now: when, where
+![landing page and when&where facts](docs/features/landing_facts.png)
+
+### inspiring/motivating video and gallery
+- the user can watch the previous events (aftermovie) to better estimate if the festival is interesting
+- the images will give the user even more impressions of the moments at this festival
+![video and gallery of the festival](docs/features/video_gallery.png )
+
+### welcome section
+- the overview which welcomes the visitor only now with words
+- this is for first time users who don't know this event and want to know a bit more about it
+![welcome text](docs/features/welcome.png)
+
+### line-up section
+- this sectin tells the visitor if their favourite DJs/artists will perform there
+- this is not a finished list and will be updated contineously (this is common practice otherwise we'd loos prospective customers)
+- the starring DJs are on top, named separately with a higher attention
+![line-up section](docs/features/line_up.png)
+
+### second gallery
+- a second gallery mainly to provide more variety to the webpage
+- more impressions
+
+![second gallery](docs/features/second_gallery.png)
+
+
+### ticket information
+- provide details about ticket conditions and overnight stay
+- with this overview, the visitors can take time to think this through 
+- the visitor shall feel comfortable by not having to decide now
+- since this is a special festival, the visitor really should think about the airport they'd like to departure
+- after all these information, the ticket sale start date is revealed
+- the mobile version show the information below each other, the desktop version in a grid of 3 columns 1 row
+
+mobile size:
+
+![ticket information mobile](docs/features/ticket_information_m.png)
+
+desktop version:
+
+![ticket information](docs/features/ticket_information.png)
+
+
+
+### vip section
+- the vip section states the exclusivity of purchaging a VIP ticket
+- it basically is an add-on to the regular ticket, caused by the standardized process of travel and overnight stay
+- the add-ons: vip area, back-stage, vip restaurant reservation
+- at the bottom, the visitor can click a button which leads them to a separate page to pre-register (call to action)
+
+![vip section](docs/features/vip.png)
+
+
+### stay tuned section
+- if the user decides not to register for vip tickets, we offer them to subscribe our newsletter
+- they might be interested in the regular ticket 
+- they might be generally interested in this festival and want to follow it first
+
+![subscribe section](docs/features/subscribe.png)
+
+### faq section
+- all that is nice, but the visitor still has unanswered questions
+- to provide many details, this section offers a link to a proper faq section
+
+![faq section](docs/features/faq.png)
+
+### footer
+- a proper festival page needs social media links
+- such event attrack young people, so, at least tiktok and instagram are necessary - facebook and X are optional
+- this footer is visible on all three webpages
+
+![footer social media](docs/features/footer.png)
+
+
+### faq webpage
+- this page is structured in 3 sections: faq for the ticketing, for the journey and for the festival itself
+- this section will be updated contineously
+- many answers for the early state of this festival - to make the visitor feel safe/comfortable
+
+![faq webpage](docs/features/faq_webpage.png)
+
+### pre-register webpage
+- the main reason the website exists
+- here, the visitor can register for a vip ticket reservation one day before the ticket sale starts
+- country is needed as the tickets will fairly be allocated to each country
+- it is not binding - just a preference which will result in a higher chance of actually getting a ticket
+- preferences are ticket category and departuring/arriving airport as well as the amount of tickets (up to 4)
+
+![pre-register webpage](docs/features/preregister_webpage.png)
 
 
 ## Upcoming features
 
+### contineously updating the line-up
+- a good organizer keeps its line-up clean otherwise you might loose customers before they are even interested in your event
+- each DJ will attract their fans
+
+### faq section update
+- the closer the event is the more specific your visitors will have
+- eg. which terminal at the airports, are they flying together with other guests?
+- to really service the customers, a contact form should be added where visitors can ask openly
 
 
 # Testing
 ## Validator testing
 ### HTML
+
 
 ### CSS
 
