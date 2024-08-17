@@ -135,6 +135,7 @@ Although a mobile first development was applied, the wireframes show the pages m
 - Tinypng
 - Greenshot
 - Balsamiq
+- wave tool
 - Google Fonts
 - Font Awesome
 - Google Chrome dev tools
@@ -301,13 +302,22 @@ index.html:
 
 
 ### Responsiveness
-- 
+- see responsiveness with https://ui.dev/amiresponsive?
+
+![am i responsive? yes](docs/validator_testing/responsive.png)
 
 
 ### Accessability
+- accessibility was checked with the wave tool
+
+![accessibility ok](docs/validator_testing/accessibility_ok.png)
 
 
 ## Fixed Bugs
+| hallo | tschüss | hallo |
+|-------|---------| hallo |
+| hallo | tschüss | hallo |
+| hallo | tschüss | hallo |
 
 ## Unfixed Bugs
 
